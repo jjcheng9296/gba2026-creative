@@ -76,6 +76,15 @@ For a solo photo of DR SHEKINAIH, use the same prompt with only the woman's bull
 - Ask ChatGPT to confirm pixels outside the face regions are unchanged.
 - Never send blind-restorer faces. Names in FULL CAPITALS in file names and notes.
 
+## IDENTITY ANCHORS (client-approved — always attach these first)
+- Both faces: `12_Potala_Palace_Photos/handover_tibet/young_face_refs/ANCHOR_DR_J_AARON_K_DAVID_DR_SHEKINAIH_approved.png` — James 15:50: "use this one as the anchor, man and female face most natural and resemblance most like".
+- DR SHEKINAIH solo: `young_face_refs/ANCHOR_DR_SHEKINAIH_solo_24_closeup_approved.png` — James 15:56 "这个很好", 15:57 "用这个作为这个老照片的恢复高清".
+- Colour rule (15:52): keep the original colours — no colour grading, tint, saturation or HDR; natural expression (神态自然).
+
+## Putting an approved close-up back into the full photo
+`refldm_work/compose_24.py`: background = Real-ESRGAN x4 of the original → 4K (colours untouched); only the person (face parsing: face, hair, neck, jacket) is taken from the approved close-up; placement by face landmarks, refined by ECC alignment of her silhouette; soft feather. No colour edits.
+
 ## Files (Tibet job, 2026-10-18)
-- Approved: `12_Potala_Palace_Photos/handover_tibet/chatgpt_restored/chatgpt_restored_A_v2_reference_faces.png`
+- #23 approved: `handover_tibet/TIBET_A_both_potala_APPROVED_4K.jpg` (ChatGPT `chatgpt_restored_A_v2_reference_faces.png`, Real-ESRGAN x4 → 3840×2880)
+- #24 approved: `handover_tibet/TIBET_B_shekinaih_white_palace_APPROVED_4K.jpg` (2872×3840, approved close-up composited into the original)
 - Originals: `12_Potala_Palace_Photos/handover_tibet/original_from_website/`
