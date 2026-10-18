@@ -19,3 +19,4 @@ Approved versions are immutable; new work = new REV note ([[TPL-Revision]]).
 - [[REV-2026-10-17-09]] 23:35 — HD exports: @2x GIF 680×560, 1360×1120 MP4 + JPG; mock site switched to MP4 (**approved**)
 - [[REV-2026-10-18-01]] 09:41 — 728×90 V10 draft 1: logos left, 3D rainbow/silver masthead, wide 3D letterings fill the stage, 12 s (**kept as snapshot** — James "much better good effect")
 - [[REV-2026-10-18-02]] 09:55 — 728×90 V10 draft 2: 15 s, CONTACT +2 s, bigger halo, volcanic BANG eruption rhythm (**in review**)
+- [[REV-2026-10-18-03]] 10:20 — Write-up v8 "PROMISE DELIVERED": scene hook, five-questions resource, action CTAs, brand + 7 companies, no figures; ChatGPT R12 merged (**draft for James**)

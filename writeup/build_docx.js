@@ -3,7 +3,7 @@ const fs = require('fs');
 const {
   Document, Packer, Paragraph, TextRun, ImageRun, Table, TableRow, TableCell, WidthType, ShadingType,
   AlignmentType, HeadingLevel, BorderStyle, LevelFormat, PageBreak, Footer, PageNumber, Header,
-} = require('docx');
+} = require('/opt/npm-tools/node_modules/docx');
 
 const INK = '1C1228', PURPLE = '34204F', GOLD = '9A7425', MUTED = '5E5470';
 const FONT = 'Calibri', SERIF = 'Georgia';
@@ -68,6 +68,7 @@ for (const raw of md) {
   if (!l || l.startsWith('TITLE:') || l.startsWith('STANDFIRST:')) continue;
   if (l.startsWith('## ')) { article.push(H2(l.slice(3))); continue; }
   if (l.startsWith('- ')) { article.push(bullet(l.slice(2))); continue; }
+  if (/^\d+\. /.test(l)) { article.push(new Paragraph({ alignment: AlignmentType.JUSTIFIED, numbering: { reference: 'num', level: 0 }, spacing: { after: 90, line: 290 }, keepLines: true, children: runs(l.replace(/^\d+\. /, '')) })); continue; }
   if (l.startsWith('> ')) {
     const t = l.slice(2);
     const isAttr = t.startsWith('—');
@@ -109,7 +110,7 @@ const children = [
     ['Company address', '27 Trevose Crescent, Dunearn Estate, Singapore 298042'],
     ['Company website', 'https://www.ceglobalnetworkinternational.com'],
     ['Email', 'shipping@ceglobalnetworkinternational.com'],
-    ['Chronology', ['Incorporated April 2026; operations commenced July 2026, carrying forward the freight business of CE Global Network LLP.', 'FY2023–FY2025 results cited in the write-up are those of CE Global Network LLP (financial years ending 31 December; management accounts, unaudited). The Pte. Ltd.\'s first financial reporting period ends on 31 December 2026.']],
+    ['Chronology', ['Incorporated April 2026; operations commenced July 2026, carrying forward the freight business of CE Global Network LLP.', 'The freight business described in the write-up was built as CE Global Network LLP (launched at the start of COVID-19); no financial figures are disclosed in this submission. The Pte. Ltd.\'s first financial reporting period ends on 31 December 2026.']],
     ['Core business, products & services', ['Freight forwarding and logistics (SSIC 52292 — freight transport arrangement):', '• Sea freight (FCL and LCL) and air freight', '• Container haulage and transportation', '• Warehousing and distribution', '• Packing, unpacking and eCommerce logistics', '• Customs clearance, handling and cargo insurance', '• AI-assisted workflow and SOP advisory for SMEs (planned)']],
   ], [2700, 6326]),
 
@@ -130,12 +131,12 @@ const children = [
   img('final/GBA2026_Advertisement_1000x500.jpg', { w: 1000, h: 500 }),
 
   H1('5. Rotating rectangular banner — goldenbullaward.com & capital.asia'),
-  P('728 × 90 px, RGB, 72 dpi — files supplied separately: GBA2026_Banner_728x90.gif (animated, 3 frames, looping) and GBA2026_Banner_728x90.jpg (static). Shown here: the static first frame.', { keepNext: true }),
-  img('final/GBA2026_Banner_728x90.jpg', { w: 728, h: 90 }),
+  P('728 × 90 px, RGB, 72 dpi — files supplied separately: GBA2026_Banner_728x90_V10_Boss_Sequence.gif (animated, 15 s loop; @2x and 2912×360 MP4 versions also available) and the static final frame. Shown here: the final frame of the V10 sequence.', { keepNext: true }),
+  img('final/GBA2026_Banner_728x90_V10.jpg', { w: 728, h: 90 }),
 
   H1('6. Rotating rectangular banner — capital.asia'),
-  P('340 × 280 px, RGB, 72 dpi — files supplied separately: GBA2026_Banner_340x280.gif (animated, 3 frames, looping) and GBA2026_Banner_340x280.jpg (static). Shown here: the static first frame.', { keepNext: true }),
-  img('final/GBA2026_Banner_340x280.jpg', { w: 340, h: 280 }, 255),
+  P('340 × 280 px, RGB, 72 dpi — files supplied separately: GBA2026_Banner_340x280_V9_Boss_Sequence.gif (animated, 16 s loop; @2x and 1360×1120 MP4 versions also available) and the static final frame. Shown here: the final frame of the approved V9C sequence.', { keepNext: true }),
+  img('final/GBA2026_Banner_340x280_V9.jpg', { w: 340, h: 280 }, 255),
 
   H1('Company boilerplate'),
   P('CE Global Network International Pte. Ltd. is a Singapore freight forwarder and logistics provider offering sea and air freight, container haulage, warehousing and distribution, and packing, unpacking and eCommerce logistics, with customs clearance and cargo insurance in scope. Incorporated in April 2026 and operating from July 2026, the company carries forward the freight business of CE Global Network LLP and runs an AI-assisted operating model that coordinates the journey of each shipment through one Singapore-based team. It is led by Founder and Managing Director DR SHEKINAIH SIEW SIN YAP and Chief Advisory & Support Officer DR J AARON K DAVID. Web: www.ceglobalnetworkinternational.com'),
@@ -151,7 +152,7 @@ const doc = new Document({
       { id: 'Heading2', name: 'Heading 2', basedOn: 'Normal', next: 'Normal', quickFormat: true, run: { font: SERIF, size: 27, bold: true, color: PURPLE }, paragraph: { spacing: { before: 280, after: 120 }, outlineLevel: 1 } },
     ],
   },
-  numbering: { config: [{ reference: 'bul', levels: [{ level: 0, format: LevelFormat.BULLET, text: '•', alignment: AlignmentType.LEFT, style: { paragraph: { indent: { left: 567, hanging: 283 } } } }] }] },
+  numbering: { config: [{ reference: 'num', levels: [{ level: 0, format: LevelFormat.DECIMAL, text: '%1.', alignment: AlignmentType.LEFT, style: { paragraph: { indent: { left: 567, hanging: 283 } } } }] }, { reference: 'bul', levels: [{ level: 0, format: LevelFormat.BULLET, text: '•', alignment: AlignmentType.LEFT, style: { paragraph: { indent: { left: 567, hanging: 283 } } } }] }] },
   sections: [{
     properties: { page: { size: { width: 11906, height: 16838 }, margin: { top: 1300, bottom: 1200, left: 1440, right: 1440 } } },
     headers: { default: new Header({ children: [new Paragraph({ alignment: AlignmentType.RIGHT, children: [new TextRun({ text: 'CE Global Network International · Golden Bull Award 2026', size: 16, color: MUTED })] })] }) },
@@ -159,4 +160,4 @@ const doc = new Document({
     children,
   }],
 });
-Packer.toBuffer(doc).then((b) => { fs.writeFileSync('final/GBA2026_Winner_Profile_CE_Global_Network_International.docx', b); console.log('docx ok', wc, 'words'); });
+Packer.toBuffer(doc).then((b) => { fs.writeFileSync(process.env.OUT || 'final/GBA2026_Winner_Profile_CE_Global_Network_International.docx', b); console.log('docx ok', wc, 'words'); });

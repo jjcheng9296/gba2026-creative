@@ -24,5 +24,5 @@ Runs: [[RUN-2026-10-17-340x280-V9C]] · [[RUN-2026-10-18-728x90-V10]] · new run
 - WF-03 in parallel: ask for WIDE / extended letterings sized to the zone (never stretch); one image per ChatGPT message; download only after 批准; pick the image by its position in the latest assistant turn.
 - WF-05: new size = new `BannerN.tsx` + `VARIANT=vN` scenes in render10.mjs; keep approved components untouched (add props such as `bright`, `stamps`).
 - WF-06: frame list = motion segments only; KEYS = indices of the key frames; also render `--scale=2` for the HD MP4.
-Skills: [[SKL-ce-global-award-creative]], [[SKL-chatgpt-image-generation]], [[SKL-remotion-threejs]], [[SKL-gif-export]], [[SKL-pc-ops]]
+Skills: [[SKL-ce-global-award-creative]], [[SKL-chatgpt-image-generation]], [[SKL-remotion-threejs]], [[SKL-gif-export]], [[SKL-pc-ops]], [[SKL-content-writing]] (write-up / articles — playbook in [[03_Docs/GBA2026_Content_Writing_Playbook.md]])
 Checks: [[QA Checklist]]
