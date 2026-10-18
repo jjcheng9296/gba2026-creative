@@ -18,7 +18,7 @@
 |---|---|---|
 | 开头 | 6.5 | 四个承诺好记；提问式开头作用不大；钩子之后没有跟上可量化的分量 |
 | 结构 | 5 | 太多"小宣言"；经营模式被领导力、学位、公司架构拖到后面 |
-| 证据与可信度 | 3 | "multimillion-dollar"、大幅增长、更少错误、广泛自动化都没有数据、来源或客户案例支撑 |
+| 证据与可信度 | 3 | "multi-million-dollar"、大幅增长、更少错误、广泛自动化都没有数据、来源或客户案例支撑 |
 | 业务清晰度 | 6.5 | 服务清单和出口流程清楚；"removes the hand-offs" 夸大（实际是协调）；"every leg" 超出了只到目的港的流程 |
 | DR SHEKINAIH 的领导刻画 | 6 | 会计、审计、银行背景有分量；之后太多篇幅讲信念，少讲决策和结果 |
 | DR J AARON K DAVID 的领导刻画 | 3 | 说是共同领导，但描述只有 "counsel, steadiness and support"，没有建立他的实际权责和影响 |
@@ -47,7 +47,7 @@
 | 荣誉与环保 | 获奖确认、已授予学位记录；环保说法要有装载率或排放证据，否则删 |
 
 ### C. 最弱的 10 句（原句 → 改法）
-1. "Published features describe CE Global as a multimillion-dollar…" → 用实体 + 年度 + 币种 + 来源的真实数字。
+1. "Published features describe CE Global as a multi-million-dollar…" → 用实体 + 年度 + 币种 + 来源的真实数字。
 2. "It grew substantially without conventional advertising…" → 营收从 FY[x] 的 S$ 到 FY[y] 的 S$；推荐占比只在有记录时写。
 3. "DR J AARON K DAVID brings counsel, steadiness and support…" → 他分担战略、重大承诺与服务标准；在 [某事件] 中他 [具体干预]，结果 [核实的结果]。
 4. "The trading company can carry greater responsibility without putting the group's foundations at risk." → "The group separates freight operations from its holdings and intellectual property."

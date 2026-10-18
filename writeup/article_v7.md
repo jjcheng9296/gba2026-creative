@@ -1,5 +1,5 @@
 TITLE: Promise Delivered
-STANDFIRST: A Singapore freight business grew from a team of one into a multimillion-dollar operation without a single advert. Its founder says the customers came because she prayed first. Here is how faith, discipline and a small team deliver, box after box.
+STANDFIRST: A Singapore freight business grew from a team of one into a [scale withheld] operation without a single advert. Its founder says the customers came because she prayed first. Here is how faith, discipline and a small team deliver, box after box.
 
 ## An hour on her knees before the first decision
 

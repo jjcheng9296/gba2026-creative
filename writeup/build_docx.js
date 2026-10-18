@@ -63,12 +63,13 @@ const article = [];
 article.push(new Paragraph({ spacing: { after: 120 }, children: [new TextRun({ text: title, font: SERIF, size: 52, bold: true, color: PURPLE })] }));
 article.push(new Paragraph({ spacing: { after: 240 }, children: [new TextRun({ text: stand, font: SERIF, italics: true, size: 26, color: GOLD })] }));
 let first = true;
-for (const raw of md) {
+let listInstance = 0;
+  for (const raw of md) {
   const l = raw.trimEnd();
   if (!l || l.startsWith('TITLE:') || l.startsWith('STANDFIRST:')) continue;
   if (l.startsWith('## ')) { article.push(H2(l.slice(3))); continue; }
   if (l.startsWith('- ')) { article.push(bullet(l.slice(2))); continue; }
-  if (/^\d+\. /.test(l)) { article.push(new Paragraph({ alignment: AlignmentType.JUSTIFIED, numbering: { reference: 'num', level: 0 }, spacing: { after: 90, line: 290 }, keepLines: true, children: runs(l.replace(/^\d+\. /, '')) })); continue; }
+  if (/^\d+\. /.test(l)) { const n = parseInt(l, 10); if (n === 1) listInstance++; article.push(new Paragraph({ alignment: AlignmentType.JUSTIFIED, numbering: { reference: 'num', level: 0, instance: listInstance }, spacing: { after: 90, line: 290 }, keepLines: true, children: runs(l.replace(/^\d+\. /, '')) })); continue; }
   if (l.startsWith('> ')) {
     const t = l.slice(2);
     const isAttr = t.startsWith('—');

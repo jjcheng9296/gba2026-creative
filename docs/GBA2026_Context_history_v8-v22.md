@@ -79,7 +79,7 @@
 
 ## 文章 v6（2026-10-16 21:50）— 方向改为"信仰 + 生意"
 - James 指示：文章要人性化、像六年级都能读、短句、有力、强行动号召；重点 FAITH BUSINESS——SHEKINAIH 向 GOD OF THE UNIVERSE 祷告、天堂带来生意；DR J AARON K DAVID 建立信仰与领导力（辅助）；读者读完对两位领导的信心增加并来联络；加 "WHEN ALL ELSE FAILS, TRY SHEKINAIH"；先写 1000 词。（之前"商业奖项特稿不放宗教内容"的规则作废，以 James 为准。）
-- 事实来源（新增、已核）：shekinaihsiewsinyap-jaaronkdavid.com —— MegaSuccess LA 2025-11（JT Foxx 台上访谈，称他们 "a blessing to this world"；Dean Welch："they prayed over me, blessed me, and guided me"）；D&B 颁奖页（"WITHOUT HIM, RECEIVING THIS AWARD WOULD BE IMPOSSIBLE"；她每年求问上帝公司营收并把潜在客户分享给团队）；意大利 Lamborghini 博物馆 2026-08（"We are here to serve you and humanity"；"When every human solution has failed, contact the God of the universe"；"When all else fails … contact us"）。网站上无 DR 头衔；"hundred million this year" 等信仰性营收预言不写。
+- 事实来源（新增、已核）：shekinaihsiewsinyap-jaaronkdavid.com —— MegaSuccess LA 2025-11（JT Foxx 台上访谈，称他们 "a blessing to this world"；Dean Welch："they prayed over me, blessed me, and guided me"）；D&B 颁奖页（"WITHOUT HIM, RECEIVING THIS AWARD WOULD BE IMPOSSIBLE"；她每年求问上帝公司营收并把潜在客户分享给团队）；意大利 Lamborghini 博物馆 2026-08（"We are here to serve you and humanity"；"When every human solution has failed, contact the God of the universe"；"When all else fails … contact us"）。网站上无 DR 头衔；[revenue wording withheld] 等信仰性营收预言不写。
 - 现行文章 article.md（1,130 词）：标题 Promise Delivered；段落：The business that heaven sent → Two leaders. One mission. → What a promise looks like in a container → A small team, powered by AI, guided by people → Why faith is good business → When all else fails, try SHEKINAIH（两个邮箱 CTA）。ChatGPT 同题版本（约 1,000 词，语气更平）已参考并合并其好句（"Start with the problem" / "Technology supports the service; it does not replace the person you need to speak to" / 意大利一段）。旧商业版备份 article_v5_business_backup.md。
 - 封面：标题缩小 + 人像右移，SHEKINAIH 的 H 不碰人体（James："文字不能碰人体，不专业"）；WHEN ALL ELSE FAILS, CONTACT 亮银、SHEKINAIH 金。
 - 340×280：背景铺满到顶、金沙酒店移到左侧、彩虹横跨酒店（James："彩虹要跨过金沙船顶，给人希望"）；人像右侧腰部以上。728×90 文字放大，HEAVEN THRONE ROOM MINISTRY 最大。
@@ -115,7 +115,7 @@
 ### 之前（v9，2026-10-16 19:20）
 - 人像：继续用 founders_red_hd.png（EDSR 2× + rembg + 调色）。James 2026-10-16 比较后选它：**更自然**。CodeFormer 修复版（photos\restored\codeformer）看起来像 AI、五官发蜡，**不用**。规则：人脸不可变形、不可"AI 化"；修复只能补清晰度，不能重画。
 - 本机工具：face-restore 技能（C:\Users\chang\ai-tools\face-restore，RTX 4050）：模式 upscale / codeformer / gfpgan；用法见 C:\Users\chang\.claude\skills\face-restore\SKILL.md。可用于背景、Logo 的 4× 放大；人脸慎用。
-- 财务数据（James 2026-10-16 提供，LLP 未审计）：营业额 S$[REDACTED] (FY2023) → [REDACTED] (FY2024) → [REDACTED] (FY2025)；税后利润 [REDACTED] → [REDACTED] → [REDACTED]；Pte Ltd 2026 年 4 月注册、7 月开始经营，未有完整财年。待写入文章（替换 "multimillion-dollar"）。
+- 财务数据（James 2026-10-16 提供，LLP 未审计）：营业额 S$[REDACTED] (FY2023) → [REDACTED] (FY2024) → [REDACTED] (FY2025)；税后利润 [REDACTED] → [REDACTED] → [REDACTED]；Pte Ltd 2026 年 4 月注册、7 月开始经营，未有完整财年。待写入文章（替换 "[scale withheld]"）。
 - v9：背景改用 GPT-6 Pro 生成的 "Rainbow Over Marina Bay Lights"（photos\ai_backgrounds\），自带彩虹；自绘彩虹降到 60% 透明度做加强；渲染器 render9.mjs / export9.py
 - ChatGPT 项目 "GBA 2026 – CE Global Creative Studio"（GPT-6 Pro）：生图对话 + 审稿对话；审稿记录见 GBA2026_ChatGPT_Critique.md（文章 4.8/10，封面 6.2，广告 5.9，方块 5.1）
 

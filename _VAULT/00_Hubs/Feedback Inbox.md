@@ -29,6 +29,7 @@ TABLE reviewer, round, status FROM "_VAULT/05_Feedback_Decisions" WHERE type = "
 - [[FB-2026-10-18-02]] 09:45–09:50 — BANG rhythm/pace, bigger halo, 15 s, CONTACT +2 s, volcanic eruption; save draft 1; update skills/vault
 - [[FB-2026-10-18-chatgpt-r10-r11]] — ChatGPT: 728 plan (R10) and eruption recipe (R11)
 - [[FB-2026-10-18-03]] 10:06–10:11 — Write-up brief: no figures, engaging, strong CTAs, brand + 7 companies; study Denning / Taktical / Giaro / Koe; ChatGPT R12 critique merged
+- [[FB-2026-10-18-04]] 10:44 — Boss via James: deep-study both leaders (Google + website, save via Claude in Chrome), rewrite: freight is a means to an end, core competence = DR SHEKINAIH leadership (prayer, faith, obedience); CTA = business solutions; audience business owners; Dan Koe method; ChatGPT R13
 
 ## Decisions
 - [[DEC-3d-polished-gold]] — 3D polished-gold lettering

@@ -74,7 +74,7 @@ Not reachable or not relevant: LinkedIn (skipped as instructed); Exquisite Inter
 - **Rhythm:** very long (about 48-minute read). Paragraphs of one or two sentences; sentences typically 6 to 15 words; frequent one-line emphasis statements.
 - **Devices:** arrows ("Faith → Purpose → Structure → Action → Stewardship → Impact"; "SYMPTOM → ROOT CAUSE → …"); numbered sequences (six-step PRAY DEEPLY … STEWARD FAITHFULLY; four imperatives BUILD INTELLIGENTLY · LEAD EXCELLENTLY · INNOVATE COURAGEOUSLY · BUT LOOK HEAVENWARD; seven movements "Find the Root … Turn the Negative into the Positive"); anaphora ("Understand the numbers. Understand the law. …"); triads ("Accounting taught her accountability. Banking taught her systems. Humanitarian service taught her compassion."); full-caps quotes.
 - **Vocabulary:** purpose, stewardship, architecture, instrument, ecosystem, discernment, root, restore, system, resilience, preservation, heavenward, legacy.
-- **DR J AARON K DAVID:** one mention, in the recognitions list: "MegaSuccess Los Angeles Recognition — 2025, including recognition alongside J AARON K DAVID" / "as authors and founders of a multimillion-dollar enterprise".
+- **DR J AARON K DAVID:** one mention, in the recognitions list: "MegaSuccess Los Angeles Recognition — 2025, including recognition alongside J AARON K DAVID" / "as authors and founders of a [scale withheld] enterprise".
 - **Business facts given:** "CE Global Network LLP later evolved through restructuring into" CE Global Network International Pte. Ltd.; restructuring "involved distinguishing operating activities from holding functions and intellectual property" (fragment); corporate recognitions listed as "CE GLOBAL NETWORK (INTERNATIONAL) — Singapore SME 500 Award Winner 2026" and "CE GLOBAL NETWORK (INTERNATIONAL) — Dun & Bradstreet Business Eminence Awards 2026, Silver Category" (note: James's records place the SME 500 with CE Global Network LLP; keep his attribution); COVID period: "borders were closing, supply chains were disrupted and freight markets were experiencing extraordinary volatility." / "Yet, during this period, the logistics business accelerated." / "Customers arrived with urgent requirements." / "Problems needed immediate solutions." / "Decisions had to be made quickly." / "The enterprise grew substantially without conventional advertising."
 - **Verbatim business-safe quotes:**
   - "GROWTH WITHOUT ARCHITECTURE EVENTUALLY PRODUCES CHAOS. BUILD WHAT CAN CARRY THE FUTURE."
@@ -133,7 +133,7 @@ Not reachable or not relevant: LinkedIn (skipped as instructed); Exquisite Inter
 - **Rhythm:** about 2,300 words; press-release prose, sentences 16 to 35 words with short quoted lines of 8 to 16 words.
 - **Devices:** one arrow chain (ministry); long lists of six to nine items ("From there come facts, risk, resources, timing, governance, intellectual property, capital, people and execution."); "Build" imperatives.
 - **DR J AARON K DAVID:** "with J AARON K DAVID serving as Co-Author and Scriptural/Theological Contributor." and "with J AARON K DAVID contributing scriptural and theological support." (book series).
-- **Business facts:** "Today, CE GLOBAL NETWORK INTERNATIONAL PTE. LTD. operates in international freight forwarding," (fragment); "Since 2013, the work has expanded across international enterprise, publishing, teaching," (fragment); "Milestones include the growth of CE GLOBAL NETWORK INTERNATIONAL into a multimillion-dollar enterprise," (fragment); "the development of a broader Singapore and Malaysia corporate structure".
+- **Business facts:** "Today, CE GLOBAL NETWORK INTERNATIONAL PTE. LTD. operates in international freight forwarding," (fragment); "Since 2013, the work has expanded across international enterprise, publishing, teaching," (fragment); "Milestones include the growth of CE GLOBAL NETWORK INTERNATIONAL into a [scale withheld] enterprise," (fragment); "the development of a broader Singapore and Malaysia corporate structure".
 - **Caution:** this release says four EIU-Paris doctorates are "conferred". That is looser than the house status rule (two conferred, two approved for conferment). Never copy its doctorate wording.
 - **Verbatim business-safe quotes:**
   - "Accounting and finance taught me to respect reality."
@@ -169,7 +169,7 @@ Not reachable or not relevant: LinkedIn (skipped as instructed); Exquisite Inter
 - **Section heads (11):** title case, triads and claims: "The Business Built on Trust, Direction and Responsibility", "CE GLOBAL NETWORK (INTERNATIONAL): LAUNCHED AT THE START OF COVID-19", "Strength Governed by Accountability", "Recognition, Responsibility and Meaning".
 - **Rhythm:** about 3,000 to 3,400 words; average 18 to 22 words a sentence; pull quotes short.
 - **Devices:** triads ("expansion under governance, ambition under accountability and wealth under stewardship"; "Authority without character becomes dangerous; vision without execution becomes fantasy" …); pull quotes; ordinal list (ministry).
-- **DR J AARON K DAVID:** "MegaSuccess stage recognition together with J AARON K DAVID" / "as best-selling authors and founders of a multimillion-dollar enterprise;"
+- **DR J AARON K DAVID:** "MegaSuccess stage recognition together with J AARON K DAVID" / "as best-selling authors and founders of a [scale withheld] enterprise;"
 - **Business facts (the richest freight content in any feature):**
   - "CE GLOBAL NETWORK LLP, subsequently restructured into CE GLOBAL NETWORK INTERNATIONAL PTE. LTD.," / "was built as an international freight-forwarding enterprise focused on reliability, accountability and solutions."
   - "CE Global Network (International)'s growth was driven primarily by referrals, client trust, service reliability and long-term relationships" (fragment)
@@ -195,7 +195,7 @@ Not reachable or not relevant: LinkedIn (skipped as instructed); Exquisite Inter
 - **Section heads (6):** "Enterprise With Purpose", "Multiplying Leaders, Not Followers", "A Declaration to Humanity".
 - **Rhythm:** shortest feature, about 800 to 900 words, 24 blocks.
 - **DR J AARON K DAVID:** "Together with J AARON K DAVID, she is the Lead and Principle Author" (fragment); "AARON is the Sub-Author for the 5 Behold My Messenger book series"; "has received MegaSuccess stage recognition in Los Angeles."
-- **Business facts:** "CE Global Network grew into a multimillion-dollar international freight-forwarding enterprise" / "built on disciplined execution, reliability and customer trust."; "business is a vehicle for creating resources, opportunities, employment and institutions"; awards listed: The Most Influential Personality to Follow in 2026, Singapore SME 500 Award Winner 2026, Dun & Bradstreet Business Eminence Awards 2026 Silver Category, Global Women of Influence Awards 2026.
+- **Business facts:** "CE Global Network grew into a [scale withheld] international freight-forwarding enterprise" / "built on disciplined execution, reliability and customer trust."; "business is a vehicle for creating resources, opportunities, employment and institutions"; awards listed: The Most Influential Personality to Follow in 2026, Singapore SME 500 Award Winner 2026, Dun & Bradstreet Business Eminence Awards 2026 Silver Category, Global Women of Influence Awards 2026.
 - **Verbatim business-safe quotes:**
   - "The greatest leader is not the one surrounded by the largest number of followers."
   - "The greatest leader is the one who leaves behind capable leaders," / "stronger institutions and people empowered to fulfil their own destiny."
@@ -259,7 +259,7 @@ Not reachable or not relevant: LinkedIn (skipped as instructed); Exquisite Inter
 The features give him little space. Every fact, with source:
 
 - Co-author of the five-volume book series she leads as principal author: "Together with J AARON K DAVID, she is the Lead and Principle Author" (Senora); "J AARON K DAVID serving as Co-Author and Scriptural/Theological Contributor." (ACCESS); "J AARON K DAVID serves as Co-Author and contributes scriptural and theological understanding." (GLV).
-- MegaSuccess, Los Angeles, 2025: "MegaSuccess Los Angeles Recognition — 2025, including recognition alongside J AARON K DAVID" / "as authors and founders of a multimillion-dollar enterprise" (WBI); "MegaSuccess stage recognition together with J AARON K DAVID" / "as best-selling authors and founders of a multimillion-dollar enterprise;" (Insights Success). The Senora also says he "has received MegaSuccess stage recognition in Los Angeles."
+- MegaSuccess, Los Angeles, 2025: "MegaSuccess Los Angeles Recognition — 2025, including recognition alongside J AARON K DAVID" / "as authors and founders of a [scale withheld] enterprise" (WBI); "MegaSuccess stage recognition together with J AARON K DAVID" / "as best-selling authors and founders of a [scale withheld] enterprise;" (Insights Success). The Senora also says he "has received MegaSuccess stage recognition in Los Angeles."
 - Not in the features but in James's records and the earlier GBA article: Co-Founder and Chief Advisory & Support Officer; key management jointly with her; received the D&B and SME 500 awards with her; Global Icon Award for Leadership & Transformation 2026 (not found online, so keep as already stated, do not elaborate); doctoral credentials with the house status wording.
 
 ## 4. Verified biography and business facts (as published)
@@ -268,7 +268,7 @@ The features give him little space. Every fact, with source:
 - About ten years of humanitarian service (halfway house, the blind, intellectual disabilities, elderly homes, families in hardship).
 - Founder & Managing Partner of Crowned Eagles Global LLP and CE Global Network LLP; Managing Director of Crowned Eagles Global Group Holdings Pte. Ltd., CE Global Network International Pte. Ltd., Crowned Eagles Global IP Holdings Pte. Ltd., CEG Malaysia Holdings Sdn. Bhd., CEG Portfolio Abundant Sdn. Bhd.
 - CE Global Network LLP restructured into CE Global Network International Pte. Ltd.; operations separated from holdings and IP; entities across Singapore and Malaysia.
-- Group work expanded since 2013. Freight business "launched at the very start of COVID-19", grew through the crisis, "grew substantially without conventional advertising", growth "driven primarily by referrals, client trust, service reliability and long-term relationships". Described as a "multimillion-dollar international freight-forwarding enterprise" built on "disciplined execution, reliability and customer trust".
+- Group work expanded since 2013. Freight business "launched at the very start of COVID-19", grew through the crisis, "grew substantially without conventional advertising", growth "driven primarily by referrals, client trust, service reliability and long-term relationships". Described as a "[scale withheld] international freight-forwarding enterprise" built on "disciplined execution, reliability and customer trust".
 - Recognitions 2026: The Most Influential Personality to Follow in 2026 (Insights Success); Singapore SME 500 Award 2026 (CE Global Network LLP per James's records); D&B Business Eminence Awards 2026 Silver (CE Global Network (International)); Global Women of Influence Awards 2026; MegaSuccess Los Angeles 2025 (both founders); DR J AARON K DAVID: Global Icon Award for Leadership & Transformation 2026.
 
 ## 5. What a GBA business profile should borrow
@@ -280,7 +280,7 @@ The features give him little space. Every fact, with source:
 5. **The governance questions** (GLV: "Is the authority clear? …") and the diligence list (WBI: numbers, law, taxation, contracts, cash flow, operations, downside). Judges read these as evidence of control.
 6. **One arrow chain per section at most**; triads; the "Accounting taught her accountability. Banking taught her systems. Humanitarian service taught her compassion." ladder.
 7. **The measure-of-success close** (ACCESS, Senora): success measured by what it enables and whom it strengthens.
-8. **Both founders named jointly**, with the MegaSuccess 2025 "authors and founders of a multimillion-dollar enterprise" recognition as the shared, published proof of the partnership.
+8. **Both founders named jointly**, with the MegaSuccess 2025 "authors and founders of a [scale withheld] enterprise" recognition as the shared, published proof of the partnership.
 
 ## 6. What to leave out
 
