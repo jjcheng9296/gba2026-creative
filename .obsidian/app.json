@@ -1,0 +1,16 @@
+{
+  "alwaysUpdateLinks": true,
+  "newLinkFormat": "shortest",
+  "useMarkdownLinks": false,
+  "showUnsupportedFiles": false,
+  "promptDelete": true,
+  "readableLineLength": true,
+  "spellcheck": false,
+  "attachmentFolderPath": "06_Photos_and_AI_Assets",
+  "userIgnoreFilters": [
+    "09_GitHub_Repo/",
+    "10_Claude_Skill_Sync/",
+    "99_Archive_Old_Versions/",
+    "08_Mock_Site_Vercel/"
+  ]
+}
