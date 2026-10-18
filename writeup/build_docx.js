@@ -75,7 +75,7 @@ for (const raw of md) {
     article.push(new Paragraph({
       indent: { left: 567 }, spacing: { before: isAttr ? 0 : 200, after: isAttr ? 240 : 60, line: 320 }, keepLines: true, keepNext: !isAttr,
       border: isAttr ? undefined : { left: { style: BorderStyle.SINGLE, size: 18, color: 'C69A45', space: 12 } },
-      children: runs(t, isAttr ? { size: 19, color: MUTED, bold: true } : { font: SERIF, italics: true, size: 25, color: PURPLE }),
+      children: runs(t, isAttr ? { size: 20, color: GOLD, bold: true } : { font: SERIF, italics: true, size: 25, color: PURPLE }),
     }));
     continue;
   }
