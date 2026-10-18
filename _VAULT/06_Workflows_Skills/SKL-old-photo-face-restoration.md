@@ -93,6 +93,6 @@ For a solo photo of DR SHEKINAIH, use the same prompt with only the woman's bull
 
 ## Files (Tibet job, 2026-10-18)
 - #23 approved: `handover_tibet/TIBET_A_both_potala_APPROVED_4K.jpg` (ChatGPT `chatgpt_restored_A_v2_reference_faces.png`, Real-ESRGAN x4 → 3840×2880)
-- #24 chosen by James 16:07 ("这个模糊 但是是最好的"): `handover_tibet/TIBET_B_shekinaih_white_palace_JAMES_PICK_preview.png` (his 718×960 preview; full-size source file still to be collected). The close-up composite was rejected for head/body proportion.
+- #24 — **the ONLY version to remember** (ticked by James 16:10; "这个模糊 但是是最好的"): `handover_tibet/TIBET_B_shekinaih_white_palace_JAMES_PICK_preview.png` (his 718×960 preview; full-size source file still to be collected). All other #24 versions are rejected.
 - Composite script note: if `compose_24.py` is used again, keep the landmark scale and allow only translation from ECC (no scale change).
 - Originals: `12_Potala_Palace_Photos/handover_tibet/original_from_website/`
