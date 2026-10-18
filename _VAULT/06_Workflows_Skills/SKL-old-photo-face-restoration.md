@@ -19,6 +19,13 @@ aliases: [old photo restoration, face restoration prompt, 老照片修复]
 
 **Use this for every future old-photo restoration of the two founders.** James asked on 2026-10-18 to keep this prompt for future use.
 
+## CLIENT PRIORITIES — in this order (James, 2026-10-18 16:06–16:07, "你要记住")
+1. **神态 — the person's natural expression and demeanour is the most important.** It must look like them, relaxed and natural.
+2. **颜色 — colours stay as in the original photo.** No colour grading, tint, saturation, HDR or "improved" skin tone.
+3. **身体比例 — head-to-body proportion must stay exactly as in the original.** Never enlarge, shrink or re-scale a head or face; when a face is pasted back, its size is fixed by the original head, not by an alignment tool.
+- A result that is a little **blurry but natural, true-colour and true-proportion beats a sharp face that changes any of these** ("这个模糊 但是是最好的").
+- Rejected 16:06: the #24 composite where the approved close-up was placed with an ECC alignment that enlarged it by ~14% — "人和身体比例不协调" (archived in `99_Archive_Old_Versions/tibet_reference_restore_first_try_2026-10-18/`).
+
 ## What works (client-approved)
 ChatGPT Pro (project "GBA 2026 – CE Global Creative Studio") in TWO steps:
 1. **Step 1 – restore + upscale** with the identity reference sheet (prompt 1 below).
@@ -86,5 +93,6 @@ For a solo photo of DR SHEKINAIH, use the same prompt with only the woman's bull
 
 ## Files (Tibet job, 2026-10-18)
 - #23 approved: `handover_tibet/TIBET_A_both_potala_APPROVED_4K.jpg` (ChatGPT `chatgpt_restored_A_v2_reference_faces.png`, Real-ESRGAN x4 → 3840×2880)
-- #24 approved: `handover_tibet/TIBET_B_shekinaih_white_palace_APPROVED_4K.jpg` (2872×3840, approved close-up composited into the original)
+- #24 chosen by James 16:07 ("这个模糊 但是是最好的"): `handover_tibet/TIBET_B_shekinaih_white_palace_JAMES_PICK_preview.png` (his 718×960 preview; full-size source file still to be collected). The close-up composite was rejected for head/body proportion.
+- Composite script note: if `compose_24.py` is used again, keep the landmark scale and allow only translation from ECC (no scale change).
 - Originals: `12_Potala_Palace_Photos/handover_tibet/original_from_website/`
