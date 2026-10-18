@@ -16,8 +16,9 @@ aliases: [old photo workflow, 老照片修复流程]
 1. **Intake** — save the original (largest version available) to `12_Potala_Palace_Photos/<job>/original_from_website/` (or the job folder). Ask James for the phone/Telegram original if one exists.
 2. **References** — attach the identity anchors first: `young_face_refs/ANCHOR_DR_J_AARON_K_DAVID_DR_SHEKINAIH_approved.png` (both), `ANCHOR_DR_SHEKINAIH_solo_24_closeup_approved.png` (her), plus the Arctic Circle selfie and same-period selfies (man LEFT, woman RIGHT).
 3. **Prompt for ChatGPT 6 Pro** — James runs it himself in the project "GBA 2026 – CE Global Creative Studio". Give him prompt 1 (restore + upscale) and, if a face drifts, prompt 2 (reference-based face correction) from [[SKL-old-photo-face-restoration]]. The prompt always says: keep colours, keep head angle/size, do not beautify.
-4. **James picks** — he marks ✓ / ✗. Remember ONLY the ✓ version; move the ✗ files to `_to_delete/` (he empties it).
-5. **Put an approved close-up back into the full photo** — `refldm_work/compose_24_head.py` (face-restore venv): HEAD ONLY (face, hair, neck) from the close-up; body, jacket, collar, background from the original (Real-ESRGAN x4 → 4K, colours untouched); head scale from the original (eye distance + hair silhouette against the wall, override with `SCALE`); never let automatic alignment rescale the head.
+4. **James picks** — he marks ✓ / ✗. Remember ONLY the ✓ version; move the ✗ files to `_to_delete/` (he empties it). Save every result he likes to F: straight away (archive next number + `chatgpt_restored/`).
+4b. **Route order** — A ChatGPT full restoration (best, #24 item 07) → B ChatGPT face correction → C head-only composite → D faithful upscale. A ChatGPT output already ≥ ~2880 px is kept as is.
+5. **(Route C only) Put an approved close-up back into the full photo** — `refldm_work/compose_24_head.py` (face-restore venv): HEAD ONLY (face, hair, neck) from the close-up; body, jacket, collar, background from the original (Real-ESRGAN x4 → 4K, colours untouched); head scale from the original (eye distance + hair silhouette against the wall, override with `SCALE`); never let automatic alignment rescale the head.
 6. **Proportion check** — open `refldm_work/check24_proportion.jpg` (original | result side by side): hair outline and face size must match the original before anything is sent.
 7. **4K export** — Real-ESRGAN x4 (`restore.py upscale -s 4`) → 3840 px long side, JPG q95 4:4:4; file name `TIBET_<A|B>_<who>_<place>_APPROVED_4K.jpg` style, overwrite in place.
 8. **Send** — final + one line on what changed; ask James to confirm 定稿.
@@ -27,3 +28,4 @@ aliases: [old photo workflow, 老照片修复流程]
 ## Run log
 - 2026-10-18 Tibet #23 (couple below the Potala) — ChatGPT two-step, approved 15:42, 4K 3840×2880.
 - 2026-10-18 Tibet #24 (DR SHEKINAIH at the White Palace) — approved close-up + head-only composite at scale 0.44, **定稿 16:21**, 4K 2872×3840.
+- 2026-10-18 17:07 Tibet #24 — ChatGPT full restoration (James's run), 2880×3840, "very good restoration by chatgpt" → archive 07. Route A moved to first place.

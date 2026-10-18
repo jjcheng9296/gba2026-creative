@@ -26,6 +26,14 @@ aliases: [old photo restoration, face restoration prompt, 老照片修复]
 - A result that is a little **blurry but natural, true-colour and true-proportion beats a sharp face that changes any of these** ("这个模糊 但是是最好的").
 - Rejected 16:06: the #24 composite where the approved close-up was placed with an ECC alignment that enlarged it by ~14% — "人和身体比例不协调" (archived in `99_Archive_Old_Versions/tibet_reference_restore_first_try_2026-10-18/`).
 
+## ROUTE ORDER (v2, 2026-10-18 17:18 — James: "更新 优化你的恢复技能")
+1. **A — ChatGPT full-photo restoration** with the identity anchor (prompt 1) — default. Proven: #24 archive item 07 (2880×3840) "very good restoration by chatgpt".
+2. **B — ChatGPT face correction** (prompt 2) when a face drifts — proven on #23 ("这很好啊，这才是对的").
+3. **C — head-only composite** (`compose_24_head.py`) when ChatGPT gives a good face but changes body/colours/framing — #24 item 06.
+4. **D — faithful upscale only** (blurry but natural) — James's ✓ pick for #24.
+- An approved ChatGPT output already ≥ ~2880 px is kept as is (no re-upscale). Save every result James likes to F: immediately (archive + `chatgpt_restored/`). Don't touch his ChatGPT tabs unless asked — give him prompts.
+- Claude skill: `founders-old-photo-restoration` (v2 proposed 17:18).
+
 ## What works (client-approved)
 ChatGPT Pro (project "GBA 2026 – CE Global Creative Studio") in TWO steps:
 1. **Step 1 – restore + upscale** with the identity reference sheet (prompt 1 below).
