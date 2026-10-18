@@ -16,6 +16,8 @@ tags: [gba2026, moc, workflow]
 8. [[WF-08-boss-review]] — Send GIF + review sheet to James; log feedback as FB note; iterate.
 9. [[WF-09-record-and-push]] — Update Context.md, SKILL.md, build notes, this vault; copy to 09_GitHub_Repo; push; deploy mock site.
 
+Separate job — old photos of the founders: [[WF-10-old-photo-restoration]] (priorities 神态 > 颜色 > 身体比例; ChatGPT two-step prompt; head-only composite with the original head size; proportion check; 4K; archive in 13_Old_Photo_Restoration).
+
 Runs: [[RUN-2026-10-17-340x280-V9C]] · [[RUN-2026-10-18-728x90-V10]] · new run → [[TPL-Workflow-Run]]
 
 ## What the 728 run taught (2026-10-18) — apply next time

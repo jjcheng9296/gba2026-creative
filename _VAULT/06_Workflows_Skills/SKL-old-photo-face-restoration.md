@@ -94,6 +94,8 @@ For a solo photo of DR SHEKINAIH, use the same prompt with only the woman's bull
 - `02_ANCHOR_DR_J_AARON_K_DAVID_DR_SHEKINAIH_couple_closeup_APPROVED.png` — identity anchor for both
 - `03_24_head_placement_two_versions.png` — the two head placements he reviewed
 - `04_24_full_photo_JAMES_PICK.png` — the full #24 he ticked (natural, true colour, true proportion)
+- `05_FINAL_23_DR_J_AARON_K_DAVID_DR_SHEKINAIH_below_Potala_4K.jpg` — #23 final 4K
+- `06_FINAL_24_DR_SHEKINAIH_White_Palace_4K.jpg` — #24 final 4K (定稿 16:21)
 
 ## Putting an approved close-up back into the full photo (use this — head only)
 `refldm_work/compose_24_head.py` (James 16:13: "第四张图片，你要注意人脸，头和身体的比例正确就行了"):
@@ -105,5 +107,5 @@ For a solo photo of DR SHEKINAIH, use the same prompt with only the woman's bull
 ## Files (Tibet job, 2026-10-18)
 - #23 approved: `handover_tibet/TIBET_A_both_potala_APPROVED_4K.jpg` (ChatGPT `chatgpt_restored_A_v2_reference_faces.png`, Real-ESRGAN x4 → 3840×2880)
 - #24 reference — **the ticked version** (James 16:10; "这个模糊 但是是最好的"): `handover_tibet/TIBET_B_shekinaih_white_palace_JAMES_PICK_preview.png` = archive `04_24_full_photo_JAMES_PICK.png`. All crossed-out #24 versions were removed.
-- #24 final 4K (2026-10-18 ~16:20, head-only composite with original head-to-body proportion): `handover_tibet/TIBET_B_shekinaih_white_palace_APPROVED_4K.jpg` (2872×3840) — sent to James for confirmation.
+- #24 final 4K (2026-10-18 ~16:20, head-only composite with original head-to-body proportion): `handover_tibet/TIBET_B_shekinaih_white_palace_APPROVED_4K.jpg` (2872×3840) — **定稿 by James 2026-10-18 16:21 ("good job, 定稿")**. Step-by-step: [[WF-10-old-photo-restoration]].
 - Originals: `12_Potala_Palace_Photos/handover_tibet/original_from_website/`

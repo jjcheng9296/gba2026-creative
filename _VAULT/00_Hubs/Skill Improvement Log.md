@@ -22,6 +22,8 @@ Failure → proposed change → test → approval → skill version / commit.
 | 2026-10-18 | `pkill -f "remotion render"` killed my own shell (exit 144) | Never pkill with a pattern that matches the calling command | [[SKL-pc-ops]] | adopted |
 | 2026-10-18 | BANG impact too flat on the wide 728 stage | Per-word re-stamps at 2-frame spacing + eruption from beneath ([[DEC-bang-eruption]]) | [[SKL-remotion-threejs]] | proposed |
 | 2026-10-18 | 1× GIF 708 KB > 500 KB target | Trim comet/ember frames or hold frames when a limit applies | [[SKL-gif-export]] | open |
+| 2026-10-18 | Blind face restorers invented faces ("bad and poor"); ChatGPT step 1 drifted the man's face | ChatGPT two-step with identity anchors; step 2 = reference-based face correction | [[SKL-old-photo-face-restoration]] | adopted (#23 approved 15:42) |
+| 2026-10-18 | Pasted close-up head came out ~14% too big (ECC rescaled it) — "人和身体比例不协调" | Head-only composite; head scale from the original; no automatic rescale; side-by-side proportion check | [[SKL-old-photo-face-restoration]] · [[WF-10-old-photo-restoration]] | adopted (#24 定稿 16:21) |
 
 ## Backlog（待办，来自第一版仓库笔记）
 - [ ] 技能正文有三份（Documents、10_Claude_Skill_Sync、09 repo docs），易不一致 → 以 10_Claude_Skill_Sync/SKILL.md 为准，其余只读 · [[SKL-ce-global-award-creative]]
