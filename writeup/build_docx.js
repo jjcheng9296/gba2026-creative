@@ -111,7 +111,7 @@ const children = [
     ['Company address', '27 Trevose Crescent, Dunearn Estate, Singapore 298042'],
     ['Company website', 'https://www.ceglobalnetworkinternational.com'],
     ['Email', 'shipping@ceglobalnetworkinternational.com'],
-    ['Chronology', ['Incorporated April 2026; operations commenced July 2026, carrying forward the freight business of CE Global Network LLP.', 'The freight business described in the write-up was built as CE Global Network LLP (launched at the start of COVID-19); no financial figures are disclosed in this submission. The Pte. Ltd.\'s first financial reporting period ends on 31 December 2026.']],
+    ['Chronology', ['Incorporated April 2026; operations commenced July 2026, carrying forward the freight business of CE Global Network LLP.', 'The freight business described in the write-up was built as CE Global Network LLP (established 2013; operated through COVID-19); no financial figures are disclosed in this submission. The Pte. Ltd.\'s first financial reporting period ends on 31 December 2026.']],
     ['Core business, products & services', ['Freight forwarding and logistics (SSIC 52292 — freight transport arrangement):', '• Sea freight (FCL and LCL) and air freight', '• Container haulage and transportation', '• Warehousing and distribution', '• Packing, unpacking and eCommerce logistics', '• Customs clearance, handling and cargo insurance', '• AI-assisted workflow and SOP advisory for SMEs (planned)']],
   ], [2700, 6326]),
 

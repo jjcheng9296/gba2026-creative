@@ -11,6 +11,7 @@ import path from 'path';
 const here = '/home/claude/gba/design';
 const SEVEN = !!process.env.SEVEN;   // V7 (James 19:32): show that DR SHEKINAIH founded 7 companies — all four sizes, V1 untouched
 const OUT = path.join(here, 'out10' + ((process.env.VARIANT || '') ? '_' + process.env.VARIANT : SEVEN ? '_v7' : ''));
+const RP = (f) => 'file:///home/claude/gba/remotion/public/' + f;
 const u = (p) => 'file://' + path.join(here, p);
 const F = (p) => u('node_modules/@fontsource/' + p);
 const HEAD = (process.env.HEAD || 'PROMISE|DELIVERED').split('|');
@@ -268,13 +269,14 @@ function ad() {
   ${stage(0, stageY, W, H - stageY, .35)}
 
   <!-- lockup top-left: CEG · name · CE Global -->
-  <div class="a" style="left:40px;top:22px;display:flex;align-items:center;gap:14px">
-    <div class="ceg" style="width:82px;height:82px"></div>
+  <!-- v23 (James 13:29): lockup tightened so the CE Global tile ends before the rainbow's left leg (bow outer edge x>=571 at y<=100) -->
+  <div class="a" style="left:30px;top:22px;display:flex;align-items:center;gap:10px">
+    <div class="ceg" style="width:80px;height:80px"></div>
     <div class="gsh2">
-      <span class="bd gold" style="font-size:28px">CE GLOBAL NETWORK</span>
-      <span class="bd gold" style="font-size:28px;letter-spacing:.02em;margin-top:4px">INTERNATIONAL PTE LTD</span>
+      <span class="bd gold" style="font-size:24.5px">CE GLOBAL NETWORK</span>
+      <span class="bd gold" style="font-size:24.5px;letter-spacing:.02em;margin-top:4px">INTERNATIONAL PTE LTD</span>
     </div>
-    <div class="cetile" style="width:90px;height:74px;border-radius:8px"></div>
+    <div class="cetile" style="width:76px;height:62px;border-radius:7px"></div>
   </div>
 
   <div class="a" style="left:38px;top:134px">
@@ -286,24 +288,24 @@ function ad() {
     <div class="cond" style="margin-top:6px;font-size:13px;letter-spacing:.2em;color:#E9E4D8;font-weight:500">Sea &nbsp;·&nbsp; Air &nbsp;·&nbsp; Haulage &nbsp;·&nbsp; Warehousing &nbsp;·&nbsp; eCommerce</div>
   </div>
 
-  <!-- stage: CONTACT US — two stacked contact groups (emails only), one button (ministry), names stacked right -->
-  <div class="a" style="left:40px;top:${stageY + 6}px;font-family:Sans;font-weight:800;font-size:12.5px;letter-spacing:.22em;color:#ECEAE5;text-transform:uppercase">Contact us</div>
-  <div class="a" style="left:40px;top:${stageY + 24}px;width:650px;display:flex;align-items:center;justify-content:space-between">
-    <span class="bd" style="font-size:18px;color:#F4F1EA;text-shadow:0 1px 2px rgba(0,0,0,.6);text-transform:uppercase">Freight &amp; Logistics</span>
-    ${CTA_FREIGHT ? `<span class="cta" style="font-size:12.5px;padding:6px 16px">${CTA_FREIGHT} &nbsp;→</span>` : ''}
-  </div>
-  <div class="a" style="left:40px;top:${stageY + 48}px;font-family:Sans;font-weight:700;font-size:18px;line-height:1;color:#FFFFFF;white-space:nowrap">${MAIL}</div>
-  <div class="a" style="left:40px;top:${stageY + 78}px">
-    <span class="bd gold gsh2" style="font-size:18px">${MIN_NAME}</span>
-  </div>
-  <div class="a" style="left:40px;top:${stageY + 104}px;font-family:Sans;font-weight:700;font-size:18px;line-height:1;color:#FFFFFF;white-space:nowrap">${MIN_MAIL}</div>
-  <div class="a" style="left:474px;top:${stageY + 40}px;width:226px;display:flex;justify-content:center"><span class="plq" style="padding:8px 14px 9px"><span class="k k1"></span><span class="k k2"></span><span class="k k3"></span><span class="k k4"></span><span class="p1">When all else fails,</span><span class="p2 gold gsh2">CONTACT DR SHEKINAIH</span><span class="p1" style="font-size:8px;letter-spacing:.18em;margin-top:4px">Fully backed by the power of Heaven</span></span></div>
+  <!-- stage v23 (James 13:29 "make the words clearer and stand out, same standard as the 728 V10"): V10 3D letterings in the bar -->
+  <div class="a" style="left:40px;top:${stageY + 5}px;font-family:Sans;font-weight:800;font-size:12.5px;letter-spacing:.22em;color:#ECEAE5;text-transform:uppercase">Contact us</div>
+  <div class="a" style="left:40px;top:${stageY + 21}px"><span class="bd" style="font-size:21px;color:#F4F1EA;text-shadow:0 1px 2px rgba(0,0,0,.7);text-transform:uppercase">Freight &amp; Logistics</span></div>
+  <div class="a" style="left:40px;top:${stageY + 47}px;font-family:Sans;font-weight:700;font-size:18.5px;letter-spacing:-.012em;line-height:1;color:#FFFFFF;white-space:nowrap;text-shadow:0 1px 2px rgba(0,0,0,.6)">${MAIL}</div>
+  <img class="a" src="${RP('v10/ministry_wide.png')}" style="left:40px;top:${stageY + 71}px;height:30px;filter:drop-shadow(0 2px 4px rgba(0,0,0,.6))">
+  <div class="a" style="left:40px;top:${stageY + 105}px;font-family:Sans;font-weight:700;font-size:18.5px;letter-spacing:-.012em;line-height:1;color:#FFFFFF;white-space:nowrap;text-shadow:0 1px 2px rgba(0,0,0,.6)">${MIN_MAIL}</div>
+  <div class="a" style="left:474px;top:${stageY + 9}px;width:226px;display:flex;justify-content:center"><span class="plq" style="padding:7px 9px 8px;width:226px;box-sizing:border-box"><span class="k k1"></span><span class="k k2"></span><span class="k k3"></span><span class="k k4"></span>
+    <img src="${RP('v10/when_wide.png')}" style="display:block;width:204px;margin:0 auto">
+    <span class="p1" style="font-size:8.5px;letter-spacing:.34em;margin-top:3px;color:#E7CF8E">Contact</span>
+    <img src="${RP('v10/name_wide.png')}" style="display:block;width:206px;margin:1px auto 0">
+    <span style="display:flex;justify-content:center;align-items:flex-end;gap:6px;margin-top:4px"><img src="${RP('v10/fully_wide.png')}" style="height:15px"><img src="${RP('v10/power_wide.png')}" style="height:17px"></span>
+  </span></div>
   <div class="a" style="left:712px;top:${stageY + 14}px;width:1px;height:104px;background:linear-gradient(180deg,rgba(240,207,126,0),#8A7A52 25%,#8A7A52 75%,rgba(240,207,126,0))"></div>
   <div class="a" style="left:736px;top:${stageY + (SEVEN ? 8 : 14)}px;text-align:left">
-    <span class="bd gold gsh2" style="font-size:${SEVEN ? 18.5 : 19.5}px">DR SHEKINAIH</span><span class="bd gold gsh2" style="font-size:${SEVEN ? 18.5 : 19.5}px;margin-top:2px">SIEW SIN YAP</span>
-    <div style="font-family:Sans;font-weight:600;font-size:${SEVEN ? 10.5 : 11}px;color:#ECEAE5;margin-top:${SEVEN ? 3 : 4}px;line-height:1.2">Founder &amp; Managing Director</div>
+    <span class="bd gold gsh2" style="font-size:${SEVEN ? 18.5 : 22}px">DR SHEKINAIH</span><span class="bd gold gsh2" style="font-size:${SEVEN ? 18.5 : 22}px;margin-top:2px">SIEW SIN YAP</span>
+    <div style="font-family:Sans;font-weight:600;font-size:${SEVEN ? 10.5 : 11.5}px;color:#ECEAE5;margin-top:${SEVEN ? 3 : 4}px;line-height:1.2">Founder &amp; Managing Director</div>
     ${SEVEN ? SEVEN_LINE(8, 6) : ''}
-    <span class="bd silver ssh" style="font-size:${SEVEN ? 14 : 14.5}px;margin-top:${SEVEN ? 5 : 9}px">DR J AARON K DAVID</span>
+    <span class="bd silver ssh" style="font-size:${SEVEN ? 14 : 16.5}px;margin-top:${SEVEN ? 5 : 8}px">DR J AARON K DAVID</span>
     <div style="font-family:Sans;font-weight:600;font-size:${SEVEN ? 10.5 : 11}px;color:#ECEAE5;margin-top:${SEVEN ? 3 : 4}px;line-height:1.2">Chief Advisory &amp; Support Officer</div>
   </div>
   `);
@@ -650,7 +652,7 @@ function stageBeat(beat) {
   if (beat === 'when') el = fit(R('v10/when_wide.png'), 6.038, h - 5, FW, 1.0);
   if (beat === 'cta') { const nh = Math.min(h - 18, FW / 7.6923), nw = nh * 7.6923, top = ST.top + 14 + (h - 14 - nh) / 2;
     el = `<div style="position:absolute;left:${ST.x}px;top:${ST.top + 1}px;width:${ST.w}px;text-align:center;line-height:1"><span class="cond silver" style="font-size:13px;letter-spacing:.3em;filter:drop-shadow(0 0 .6px #E9BC5C) drop-shadow(0 0 .6px #B98A2E) drop-shadow(0 1px 1px rgba(0,0,0,.9))">CONTACT</span></div>
-    <img src="${R('v10/name_wide.png')}" style="position:absolute;left:${(cx - nw / 2).toFixed(1)}px;top:${top.toFixed(1)}px;width:${nw.toFixed(1)}px;height:${nh.toFixed(1)}px;filter:drop-shadow(0 1px 1px rgba(0,0,0,.9))">`; }
+    <img src="${RP('v10/name_wide.png')}" style="position:absolute;left:${(cx - nw / 2).toFixed(1)}px;top:${top.toFixed(1)}px;width:${nw.toFixed(1)}px;height:${nh.toFixed(1)}px;filter:drop-shadow(0 1px 1px rgba(0,0,0,.9))">`; }
   if (beat === 'fully') el = fit(R('v10/fully_wide.png'), 7.111, h, FW, 1.0);
   if (beat === 'power') el = fit(R('v10/power_wide.png'), 5.5172, h, FW, 1.0);   // ChatGPT two-tone wide lettering (POWER OF silver / HEAVEN gold); split parts power_of.png + heaven.png for the animation
   if (beat === 'bang') { const gap = 5, bw = (FW - 2 * gap) / 3, bh = Math.min(h - 2, bw / 2.929), x0 = cx - (3 * bw + 2 * gap) / 2, sx = bw / (bh * 2.929);
@@ -669,7 +671,7 @@ function lb10(beat) {
   <div class="a" style="left:0;right:0;bottom:0;height:2px;background:linear-gradient(90deg,#7A4E12,#E9BE5E 15%,#FFF4D0 55%,#E9BE5E 85%,#7A4E12);box-shadow:0 0 8px rgba(255,205,120,.6)"></div>
   <div class="a ceg" style="left:8px;top:29px;width:56px;height:56px"></div>
   <div class="a cetile" style="left:76px;top:29px;width:56px;height:56px;border-radius:7px;background-size:86%"></div>
-  <div id="co" class="a" style="left:${MH_.x}px;top:0px;width:${MH_.w}px;height:27px;display:flex;align-items:center;justify-content:center;gap:9px;white-space:nowrap;line-height:1"><img src="${R('v10/ceg_rainbow.png')}" style="height:26px;width:auto;filter:drop-shadow(0 1px 1px rgba(0,0,0,.9))"><img src="${R('v10/company_silver.png')}" style="height:22px;width:auto;margin-top:1px;filter:drop-shadow(0 1px 1px rgba(0,0,0,.9))"></div>
+  <div id="co" class="a" style="left:${MH_.x}px;top:0px;width:${MH_.w}px;height:27px;display:flex;align-items:center;justify-content:center;gap:9px;white-space:nowrap;line-height:1"><img src="${RP('v10/ceg_rainbow.png')}" style="height:26px;width:auto;filter:drop-shadow(0 1px 1px rgba(0,0,0,.9))"><img src="${RP('v10/company_silver.png')}" style="height:22px;width:auto;margin-top:1px;filter:drop-shadow(0 1px 1px rgba(0,0,0,.9))"></div>
   <div id="rl" class="a" style="left:${MH_.x + 16}px;top:16px;width:${MH_.w - 32}px;height:1px;background:linear-gradient(90deg,rgba(240,207,126,0),rgba(240,207,126,.75) 12%,rgba(240,207,126,.75) 88%,rgba(240,207,126,0))"></div>
   ${stageBeat(beat)}
   <script>document.fonts.ready.then(()=>{const b=document.querySelector('#co'),t=b.lastElementChild,i=b.firstElementChild;let hh=22;while(i.getBoundingClientRect().width+9+t.getBoundingClientRect().width>b.clientWidth-2&&hh>14){hh-=.25;t.style.height=hh+'px'};document.querySelector('#rl').style.top='27px'})</script>
