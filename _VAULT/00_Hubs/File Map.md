@@ -14,6 +14,8 @@ Full map: [[README_FOLDER.md]]
 | 03_Docs | [[03_Docs/GBA2026_Context.md]] · [[03_Docs/GBA2026_Design_Philosophy_and_Workflow.md]] · [[03_Docs/GBA2026_ChatGPT_Critique.md]] |
 | 11_Research_Leaders | Deep-study corpus on DR SHEKINAIH SIEW SIN YAP & DR J AARON K DAVID: `00_INDEX_Research_Leaders.md`, `05_Quote_Bank.md`, `sources/` (external features), `website_text/` (19 pages), `website_source/` (site clone, large) |
 | 04_Organiser_Brief | [[04_Organiser_Brief/GBA 2026 - Checklist (Prestige) Singapore.pdf]] |
+| 12_Potala_Palace_Photos | Potala AI 4K photos; `handover_tibet/` = Tibet old-photo restoration work, finals `TIBET_A_both_potala_APPROVED_4K.jpg`, `TIBET_B_shekinaih_white_palace_APPROVED_4K.jpg`, anchors in `young_face_refs/` |
+| 13_Old_Photo_Restoration | Client-approved old-photo restoration archive (James 16:13 "上面这些都可以存档"): `2026-10-18_Tibet_approved/` 01 solo close-up, 02 couple anchor, 03 head-placement comparison, 04 full #24 pick. Method: [[SKL-old-photo-face-restoration]] |
 | 05_Logos | [[AST-logo-ce-global-tile]] |
 | 06_Photos_and_AI_Assets | asset notes in 03_Assets |
 | 08_Mock_Site_Vercel | https://gba2026-mock-site.vercel.app — [[DEC-mock-site-mp4]] |

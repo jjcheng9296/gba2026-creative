@@ -88,11 +88,22 @@ For a solo photo of DR SHEKINAIH, use the same prompt with only the woman's bull
 - DR SHEKINAIH solo: `young_face_refs/ANCHOR_DR_SHEKINAIH_solo_24_closeup_approved.png` — James 15:56 "这个很好", 15:57 "用这个作为这个老照片的恢复高清".
 - Colour rule (15:52): keep the original colours — no colour grading, tint, saturation or HDR; natural expression (神态自然).
 
-## Putting an approved close-up back into the full photo
-`refldm_work/compose_24.py`: background = Real-ESRGAN x4 of the original → 4K (colours untouched); only the person (face parsing: face, hair, neck, jacket) is taken from the approved close-up; placement by face landmarks, refined by ECC alignment of her silhouette; soft feather. No colour edits.
+## ARCHIVE — approved images (James 16:13 "这些都很好 … 上面这些都可以存档，old photo restoration")
+`13_Old_Photo_Restoration/2026-10-18_Tibet_approved/`
+- `01_DR_SHEKINAIH_solo_24_closeup_APPROVED.png` — her face for #24
+- `02_ANCHOR_DR_J_AARON_K_DAVID_DR_SHEKINAIH_couple_closeup_APPROVED.png` — identity anchor for both
+- `03_24_head_placement_two_versions.png` — the two head placements he reviewed
+- `04_24_full_photo_JAMES_PICK.png` — the full #24 he ticked (natural, true colour, true proportion)
+
+## Putting an approved close-up back into the full photo (use this — head only)
+`refldm_work/compose_24_head.py` (James 16:13: "第四张图片，你要注意人脸，头和身体的比例正确就行了"):
+- Only the HEAD (face, hair, neck — face parsing) comes from the approved close-up; body, jacket, collar and background stay from the original (Real-ESRGAN x4 → 4K, colours untouched) — so body proportions cannot change.
+- Head size = her head in the ORIGINAL: measured on the hair silhouette against the wall and the eye distance, then checked side by side with the original (`refldm_work/check24_proportion.jpg`). For #24 the scale used is 0.44 (landmarks 0.431, hair silhouette 0.465; the rejected ECC placement was 0.49).
+- Never let an automatic alignment change the head scale. Always make the side-by-side check against the original before sending.
+- Old `compose_24.py` (whole person + ECC scale) is superseded.
 
 ## Files (Tibet job, 2026-10-18)
 - #23 approved: `handover_tibet/TIBET_A_both_potala_APPROVED_4K.jpg` (ChatGPT `chatgpt_restored_A_v2_reference_faces.png`, Real-ESRGAN x4 → 3840×2880)
-- #24 — **the ONLY version to remember** (ticked by James 16:10; "这个模糊 但是是最好的"): `handover_tibet/TIBET_B_shekinaih_white_palace_JAMES_PICK_preview.png` (his 718×960 preview; full-size source file still to be collected). All other #24 versions are rejected.
-- Composite script note: if `compose_24.py` is used again, keep the landmark scale and allow only translation from ECC (no scale change).
+- #24 reference — **the ticked version** (James 16:10; "这个模糊 但是是最好的"): `handover_tibet/TIBET_B_shekinaih_white_palace_JAMES_PICK_preview.png` = archive `04_24_full_photo_JAMES_PICK.png`. All crossed-out #24 versions were removed.
+- #24 final 4K (2026-10-18 ~16:20, head-only composite with original head-to-body proportion): `handover_tibet/TIBET_B_shekinaih_white_palace_APPROVED_4K.jpg` (2872×3840) — sent to James for confirmation.
 - Originals: `12_Potala_Palace_Photos/handover_tibet/original_from_website/`
