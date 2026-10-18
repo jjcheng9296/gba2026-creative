@@ -14,6 +14,7 @@ Golden Bull Award 2026 creative for CE GLOBAL NETWORK INTERNATIONAL PTE LTD. **S
 - Approved: [[DEL-340x280-V9C]] · in review: [[DEL-728x90-V9C]] (V10 draft 2, [[REV-2026-10-18-02]]) · next: 1000×500, 2000×800
 - Latest handoff: [[SES-2026-10-18-claude]] (previous [[SES-2026-10-17-claude]])
 - Open question: slot format → [[PER-jason-ooi]]
+- Old photos of the founders: use [[SKL-old-photo-face-restoration]] (client-approved ChatGPT two-step prompt, 2026-10-18)
 
 ## Hubs
 [[Design System]] · [[Rules & Red Lines]] · [[Revision Log]] · [[Feedback Inbox]] · [[Workflow Run Sheet]] · [[Skill Improvement Log]] · [[QA Checklist]] · [[File Map]]
