@@ -96,6 +96,7 @@ For a solo photo of DR SHEKINAIH, use the same prompt with only the woman's bull
 - `04_24_full_photo_JAMES_PICK.png` — the full #24 he ticked (natural, true colour, true proportion)
 - `05_FINAL_23_DR_J_AARON_K_DAVID_DR_SHEKINAIH_below_Potala_4K.jpg` — #23 final 4K
 - `06_FINAL_24_DR_SHEKINAIH_White_Palace_4K.jpg` — #24 final 4K (定稿 16:21)
+- `07_ChatGPT_24_DR_SHEKINAIH_White_Palace_full_restoration_APPROVED.png` — ChatGPT full restoration of #24, 2880×3840 (James 17:07: "this save it, very good restoration by chatgpt"); copy in `handover_tibet/chatgpt_restored/chatgpt_24_full_restoration_APPROVED.png`. Proof that a full-photo ChatGPT restoration with the anchor prompt can keep face, colour and proportion.
 
 ## Putting an approved close-up back into the full photo (use this — head only)
 `refldm_work/compose_24_head.py` (James 16:13: "第四张图片，你要注意人脸，头和身体的比例正确就行了"):
