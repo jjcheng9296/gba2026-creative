@@ -2,7 +2,7 @@
 type: moc
 id: workflow-run-sheet
 created: 2026-10-17
-updated: 2026-10-17
+updated: 2026-10-19
 tags: [gba2026, moc, workflow]
 ---
 # Workflow Run Sheet
@@ -26,5 +26,17 @@ Runs: [[RUN-2026-10-17-340x280-V9C]] · [[RUN-2026-10-18-728x90-V10]] · new run
 - WF-03 in parallel: ask for WIDE / extended letterings sized to the zone (never stretch); one image per ChatGPT message; download only after 批准; pick the image by its position in the latest assistant turn.
 - WF-05: new size = new `BannerN.tsx` + `VARIANT=vN` scenes in render10.mjs; keep approved components untouched (add props such as `bright`, `stamps`).
 - WF-06: frame list = motion segments only; KEYS = indices of the key frames; also render `--scale=2` for the HD MP4.
+## What the V11 new-slogan run taught (2026-10-19) — [[RUN-2026-10-19-340x280-V11]]
+- Read the vault BEFORE acting (James asks for it every time): Session Protocol → latest SES → target DEL/REV → WF notes for the step.
+- Phrasing/rhythm questions: write Claude's own judgment first, ask ChatGPT blind with 2–3 options, merge, show James both side by side ([[03_Docs/GBA2026_ChatGPT_Critique.md]] round 12).
+- WF-04 static scenes sheet (5 beats + 1× strip) before animating — James answered in 10 minutes with exact size fixes.
+- Downloads in the built-in browser: `*.tmp` → `grab_tmp_download.ps1` ([[WF-03-element-generation]]). Ask 批准 once per batch.
+- Frame-check the GIF's transition frames (slam peaks, first landing frame, flashes) — three real flaws were only visible there ([[WF-07-frame-check]]).
+- Archive on request into `<folder>/19th Oct 2026 - V11A Version 1/` (copy only) + local git commit; then start version 2.
+
+Runs (add): [[RUN-2026-10-19-340x280-V11]] · Deliverable: [[DEL-340x280-V11]]
+
 Skills: [[SKL-ce-global-award-creative]], [[SKL-chatgpt-image-generation]], [[SKL-remotion-threejs]], [[SKL-gif-export]], [[SKL-pc-ops]], [[SKL-content-writing]] (write-up / articles — playbook in [[03_Docs/GBA2026_Content_Writing_Playbook.md]])
 Checks: [[QA Checklist]]
+- 2026-10-19 lesson: "HD" = rendered from 4x layers, not upscaled; check sharpness (Laplacian) on faces/names before sending. Small silver type → 3D silver, check at 1x before showing.
+- 2026-10-19 lesson: before building motion, ask "what does the WHOLE banner do in the first second, and does it read on a phone?" — then check the idea against the red lines (rainbow not pulsed/covered, nothing crosses the founders). See Design System "Attention & phone".

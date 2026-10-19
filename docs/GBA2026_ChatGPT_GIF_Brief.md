@@ -9,13 +9,13 @@ WHO / WHAT
 - Brand line (boss's words): "WHEN ALL ELSE FAILS, CONTACT DR SHEKINAIH — BECAUSE FULLY BACKED BY THE POWER OF HEAVEN! BANG! BANG! BANG!"
 
 ATTACHED REFERENCE (the approved look — keep it pixel-identical, only add the animation)
-- GBA2026_Banner_728x90_V5F_Gold_Detonation.jpg and GBA2026_Banner_340x280_V5F_Gold_Detonation.jpg = the approved first frame of each size: navy night photo of Marina Bay with ONE complete photographic rainbow (never redrawn, never pulsed, never covered), the two founders at the right (728) / centre-right (340), logo tile, company name in two equal lines of gold Bodoni, HEAVEN THRONE ROOM MINISTRY in gold, "WHEN ALL ELSE FAILS," in silver, and the gold plaque CONTACT / DR SHEKINAIH (the only CTA). Bottom info line: "FULLY BACKED BY THE POWER OF HEAVEN | +65 8161 5672".
+- GBA2026_Banner_728x90_V5F_Gold_Detonation.jpg and GBA2026_Banner_340x280_V5F_Gold_Detonation.jpg = the approved first frame of each size: navy night photo of Marina Bay with ONE complete photographic rainbow (never redrawn, never pulsed, never covered), the two founders at the right (728) / centre-right (340), logo tile, company name in two equal lines of gold Bodoni, HEAVEN THRONE ROOM MINISTRY in gold, "WHEN ALL ELSE FAILS," in silver, and the gold plaque CONTACT / DR SHEKINAIH (the only CTA). Bottom info line: "FULLY BACKED BY THE POWER OF HEAVEN | [phone withheld]".
 - Fixed on every frame: logo, company name, ministry name, WHEN ALL ELSE FAILS, plaque, photo, rainbow, faces. Only the bottom info line and the effects change.
 
 THE ANIMATION WE WANT (9 frames, 14 s total, loop)
 1. Brand frame 4.0 s — exactly the attached JPG. A GOLD FIREWORK (real-looking, chrysanthemum style, champagne gold) is already blooming in the dark sky at the UPPER-LEFT of the rainbow, outside the arch, not touching the rainbow or the people.
-2. Freight frame 2.5 s — info line becomes: ✉ shipping@ceglobalnetworkinternational.com | ☎ +65 8161 5672 (340: email only).
-3. Ministry frame 2.5 s — info line becomes: ✉ ceg@crownedeaglesglobal.org | ☎ +65 8161 5672 (340: email only).
+2. Freight frame 2.5 s — info line becomes: ✉ shipping@ceglobalnetworkinternational.com | ☎ [phone withheld] (340: email only).
+3. Ministry frame 2.5 s — info line becomes: ✉ ceg@crownedeaglesglobal.org | ☎ [phone withheld] (340: email only).
 4. BANG 1 flash 0.15 s — a second gold firework/detonation bursts in the sky at the upper-left of the rainbow; the word "BANG!" pops in the bottom-left row at 112% size.
 5. BANG 1 settle 0.55 s — burst settles; BANG! at 100%.
 6. BANG 2 flash 0.15 s — third burst in the sky; second "BANG!" pops at 112%; first BANG shrinks to 88% / 72% opacity.

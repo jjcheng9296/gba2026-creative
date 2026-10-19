@@ -2,7 +2,7 @@
 type: moc
 id: feedback-inbox
 created: 2026-10-17
-updated: 2026-10-17
+updated: 2026-10-19
 tags: [gba2026, moc]
 ---
 # Feedback Inbox
@@ -30,6 +30,10 @@ TABLE reviewer, round, status FROM "_VAULT/05_Feedback_Decisions" WHERE type = "
 - [[FB-2026-10-18-chatgpt-r10-r11]] — ChatGPT: 728 plan (R10) and eruption recipe (R11)
 - [[FB-2026-10-18-03]] 10:06–10:11 — Write-up brief: no figures, engaging, strong CTAs, brand + 7 companies; study Denning / Taktical / Giaro / Koe; ChatGPT R12 critique merged
 - [[FB-2026-10-18-04]] 10:44 — Boss via James: deep-study both leaders (Google + website, save via Claude in Chrome), rewrite: freight is a means to an end, core competence = DR SHEKINAIH leadership (prayer, faith, obedience); CTA = business solutions; audience business owners; Dan Koe method; ChatGPT R13
+- [[FB-2026-10-19-01]] 14:12–14:55 — NEW SLOGAN "TRY THE GOD OF THE UNIVERSE IN DR. SHEKINAIH!": keep V9C, same font + new font (ChatGPT), phrasing/rhythm via ChatGPT + own judgment, IN bigger, closing rows equal size, HD; archive V11A v1 → version 2 (ChatGPT improvements + memorable motion); read/update the vault, skill and workflow first
+- [[FB-2026-10-19-02]] 15:49 — Boss: headline "CROWNED EAGLES GLOBAL HEAVEN THRONE ROOM MINISTRY, CE GLOBAL NETWORK INTERNATIONAL GLOBAL FREIGHT FORWARDING!" — Option A mock (split by logo: top + band); keep and archive every version and the design style
+- [[FB-2026-10-19-03]] 16:36–18:06 — WHEN ALL ELSE FAILS not centred / no impact → A (centred, James) vs B (two-line chrome, ChatGPT R18 + Claude); phone HD sets; "save all these versions"
+- [[FB-2026-10-19-04]] 18:55–19:31 — short attention span + phone: "give people impression, not just the words" → Variations VAR1 / VAR2 built, liked ("不错很有创意"), archived
 
 ## Decisions
 - [[DEC-3d-polished-gold]] — 3D polished-gold lettering
@@ -40,3 +44,4 @@ TABLE reviewer, round, status FROM "_VAULT/05_Feedback_Decisions" WHERE type = "
 - [[DEC-mock-site-mp4]] — Mock site uses the MP4
 - [[DEC-728-layout-logos-left-masthead]] — 728: logos left, masthead on top, stage in the middle (James 2026-10-18)
 - [[DEC-bang-eruption]] — BANG! = eruption from beneath, 1·2·3 rhythm at 2-frame spacing (pending)
+- [[DEC-v11-version2-sentence-assembles]] — V11 v2: sentence assembles, 12 s, still ending; email after the name; keep comet, drop ministry orbit; A lettering (James 2026-10-19 15:05)

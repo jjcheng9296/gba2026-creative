@@ -3,7 +3,7 @@ type: moc
 id: design-system
 status: approved
 created: 2026-10-17
-updated: 2026-10-17
+updated: 2026-10-19
 aliases: [fonts, colours, tokens]
 tags: [gba2026, moc, design-system]
 ---
@@ -44,9 +44,18 @@ Masters: [[AST-v9c-dr-shekinaih-3dgold]] · [[AST-v9c-dr-shekinaih-siew-sin-yap-
 | [[TOK-motion-bang-stamp]] | motion | `three.js plane tilt −0.6→0 rad / 0.25 s, metalness .85, roughness .28, point-light sweep; words share one jitter` | BANG! stamp (Bang3D.tsx) |
 | [[TOK-motion-slam]] | motion | `1.2→0.97→1 / 0.33 s, flash + ring, jitter ±4 px over 4 frames` | Slam for row phrases |
 | [[TOK-motion-bang-eruption]] | motion | `1·2·3 hits at 2-frame spacing; underlight + ember streaks + band fissures + lava glow from beneath` | BANG! eruption (V10 728, pending approval) |
+| [[TOK-motion-blackout-rainbow-light]] | motion | `plate flicker-out → dark city, rainbow + founders + text unchanged → light spreads from the rainbow apex` | VAR1 hook: the banner changes state (felt before read) |
+| [[TOK-motion-big-word-punch]] | motion | `one word per ~0.42 s beat, each as big as the zone allows, slam ≤ zone, hard cut` | VAR2: whole message in < 4 s, readable on a phone |
 | [[TOK-gif-export]] | export | `12 fps motion, shared 256-colour palette, dither frame 1 only, store changed regions` | design/export_v6.py |
 
 V10 wide letterings (728): [[AST-v10-crowned-eagles-global-rainbow-gold]] · [[AST-v10-wide-letterings]] — rainbow-gradient + gold-border and silver + gold-border masthead styles; wide/extended stage words.
+
+## Attention & phone (James 19 Oct 19:04 — "give people impression, not just show the words")
+- Showing the words is the basic level. In the FIRST second something must happen to the whole banner (a state change, a huge word), not only to a line of text.
+- One idea per beat; the full message must be readable in under ~4 s, at phone size (check the 1360 MP4 on a phone and the 340 at 100 %).
+- Make it felt before it is read: tie the motion to the meaning (failure → darkness, God → light from the rainbow, her name → the strongest hit).
+- Keep one signature rhythm (3 beats: name strokes = BANG! BANG! BANG!) so it is remembered; end on a still closing card (≥ 3 s).
+- Every motion idea is checked against the red lines first (rainbow not pulsed/covered, nothing crosses the founders).
 
 ## Layout 728×90 V10 (CSS px) — [[DEC-728-layout-logos-left-masthead]]
 Masthead x 6–546 y 0–27 (rainbow CEG 26 px + silver company 22 px, gold rule y 27) · logos 56×56 at (8,29) and (76,29) · stage x 150–500, y 29–87 (73 with email) · email y 75–87 · photo x ≥ 500 untouched.
@@ -56,6 +65,14 @@ Photo y 0–174 · logos 50×50 at (8,6) and (282,6) · ministry 214×19 at y 8 
 
 ## Timeline
 0 WHEN ALL ELSE FAILS, → 2.0 CONTACT / DR. SHEKINAIH (to 7.0) → 7.0 FULLY BACKED BY + email → 8.5 POWER OF / HEAVEN → 10.5 / 11.5 / 12.5 BANG ×1/2/3 → 13–15 ministry comet + glint → 16 loop.
+
+## V11 new-slogan style (19 Oct 2026) — keep it (James 15:50 "你都设计风格也保留")
+- Slogan: WHEN ALL ELSE FAILS, (silver) → TRY (silver) THE GOD OF THE UNIVERSE (gold) → 3D silver IN + 3D gold DR. SHEKINAIH! → BANG! ×3 (gold) → closing card with equal-height rows.
+- Lettering: same 3D polished block family as V9C ([[AST-v11-try-the-god-2line]], [[AST-v11-try-the-god-oneline]], [[AST-v11-dr-shekinaih-excl]], [[AST-v11-in-3dsilver]]).
+- Motion signatures: [[TOK-motion-sentence-assemble]] (v2) · [[TOK-motion-comet-writes-name]] (v3); half-second pulse shared by the three strokes and the three BANGs; still ending (last 3 s), no loop fade; email strip y 261–277 protected.
+- **Gold rationing (James 16:01):** gold ONLY on DR. SHEKINAIH, THE GOD OF THE UNIVERSE, HEAVEN THRONE ROOM MINISTRY. Everything else silver.
+- **Small silver type = 3D SILVER (James 16:13 "除非你做成立体的银色"):** chrome face (`#FFF→#C6CDD6→#8F99A6 horizon→#FFF`), 0.45 px dark bevel `#5A626D`, steel extrusion down-right in 0.42/0.66 px steps (`#59616C #434A53 #30363E`), soft black drop. Never a gold `text-stroke` on ≤13 px caps — it filled the counters ("反而看不清楚"). Code: `silver3dLine()` in render10.mjs (`V11H=band6`), `silver3d()` in v11layers.mjs. Band = Anton 13.9 px, tracking 0.045 em.
+- Versions kept: v1 / v2 / v3 snapshot folders + `source_code/` in `01_Work_340x280_V11_New_Slogan/` ([[DEL-340x280-V11]]).
 
 ## People & brands
 [[PER-dr-shekinaih-siew-sin-yap]] · [[PER-dr-j-aaron-k-david]] · [[BRD-ce-global-network-international]] · [[BRD-crowned-eagles-global]] · [[BRD-heaven-throne-room-ministry]] · [[BRD-golden-bull-award-2026]]

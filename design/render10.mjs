@@ -117,7 +117,7 @@ const ICO = {
 };
 const icon = (n, px, col = '#E9C56A') => `<svg width="${px}" height="${px}" viewBox="0 0 24 24" fill="none" stroke="${col}" stroke-width="1.7" stroke-linejoin="round" stroke-linecap="round" style="display:inline-block;vertical-align:middle;filter:drop-shadow(0 1px 2px rgba(0,0,0,.7))">${ICO[n]}</svg>`;
 const icons = (px, gap = 10) => `<div style="display:flex;gap:${gap}px;align-items:center">${['ship','plane','truck','box'].map(n => icon(n, px)).join('')}</div>`;
-const PHONE = process.env.PHONE || '+65 8161 5672';
+const PHONE = process.env.PHONE || '';   // phone withheld in the public repo (set PHONE=… locally)
 // BANG! BANG! BANG! — the boss's exclamation, popped in one at a time (frames 3-5 of the V1 GIF); the newest one is biggest
 const bangs = (n, base = 13, grow = 1.45, center = false) => n ? `<div class="gsh2" style="display:flex;gap:7px;align-items:baseline;line-height:1;${center ? 'justify-content:center' : ''}">${[...Array(n)].map((_, i) => `<span class="bd gold" style="font-size:${i === n - 1 ? base * grow : base}px;letter-spacing:.02em">BANG!</span>`).join('')}</div>` : '';
 const GEO = {}; const geo = (n, o) => { GEO[n] = o; return ''; }; // layout geometry for qa_check.py (v20)

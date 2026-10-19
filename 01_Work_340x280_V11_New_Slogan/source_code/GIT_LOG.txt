@@ -1,0 +1,10 @@
+2dbe79a V11 variations for short attention + phone: VAR1 blackout to rainbow light, VAR2 big word punch
+67b7b66 V11A v5B (MR11A5B/MR11A5BHD): two-line 3D chrome WHEN, slam 1.05
+4dbdd58 V11A v5 (MR11A5/MR11A5HD): WHEN ALL ELSE FAILS centred (James picked option A)
+6433bdf V11A v4 true high-res: MR11A4HD with 4x base, email and BANG layers
+ebf3b49 V11A v4 draft (MR11A4): v3 + boss headline, band and email in 3D silver
+756e3a2 V11A v3 refinement: strokes on the BANG half-second pulse, no glint on the finished name, smaller comet
+f95025e V11A version 3 (MR11A3): comet writes her name in three strokes, 3D silver IN, protected email strip, 13 s
+bb7ea7f V11A version 2 (MR11A2): sentence assembles, 12 s, still ending, email after the name
+0ed7b21 V11A new slogan 340x280: Banner11, HeroTitle, closing card, equal-size rows (archived as Version 1)
+6bee2ff Create new Remotion video

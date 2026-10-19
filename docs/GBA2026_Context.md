@@ -1,5 +1,9 @@
 # GBA 2026 — 项目上下文（压缩版，2026-10-17 23:40 · v31）
 
+> **Obsidian 仓库（2026-10-18）**：仓库根目录 = 本文件夹。入口 `00_HOME.md` → `_VAULT/00_Hubs/HOME.md`；开工/收工按 `_VAULT/00_Hubs/Session Protocol.md`；字体颜色在 `_VAULT/00_Hubs/Design System.md`（每项一条 TOK 笔记）；改稿记 FB → REV → DEC 笔记（模板在 `_VAULT/08_Templates`）。需安装社区插件 Dataview + Templater。
+>
+> **728×90 V10（2026-10-18，待老板批准）**：两个 Logo 都在左边、顶行 CROWNED EAGLES GLOBAL（3D 彩虹+金边）& CE GLOBAL NETWORK INTERNATIONAL PTE LTD（3D 银+金边）、中间大舞台所有字用 ChatGPT 宽体 3D 字铺满、15 秒、BANG 火山喷发节奏。文件在 `01_Work_728x90_V10\`（第 1 版 12 秒留在 `Snapshot_V10a_12s_0941\`）；细节见 `_VAULT/01_Deliverables/DEL-728x90-V9C.md` 与 `GBA2026_V10_728x90_Build_Notes.md`。
+>
 > 新会话先读这一份。规则在 skill `ce-global-award-creative`（Documents\CE_Global_Award_Creative_Skill\SKILL.md）；链接在 GBA2026_Links_and_Context.md；详细版本史在本文末尾附录。
 
 ## 1. 基本事实
@@ -26,9 +30,11 @@
 | 17th Oct 2026 - Version 5\ | **v25–26** 六套英文动画横幅：V5A 天光三击 / V5B 冠冕签名 / V5C 三环（ChatGPT Part B）；V5D 光柱+BANG 字；V5E 金色烟花+BANG（James 构想）；**V5F Gold Detonation 金色爆闪 9 帧（ChatGPT Part C 规格 + 烟花，当前最震撼）**；README 说明；中文版待做 |
 | 缺 | 公司照片 10–30 张（宽 1000px）；矢量 Logo |
 
+| 01_Work_340x280_V11_New_Slogan\ | **v31 V11 新标语（10-19）** "WHEN ALL ELSE FAILS, TRY THE GOD OF THE UNIVERSE IN DR. SHEKINAIH! BANG! BANG! BANG!"：Version 1–5 + 5B（v4 = 老板标题 CROWNED EAGLES GLOBAL / HEAVEN THRONE ROOM MINISTRY + 公司两行立体银字，16:21 批准；v5 = WHEN 放正，James 选 A；5B = 两行镀铬 WHEN）；Variations\ VAR1 熄灯天光 / VAR2 大字逐个砸（19:31 "不错很有创意，存档"）；每版 340×280 + @2x + 1360×1120 真高清 + 手机版；四款对比视频 |
+
 ## 3. 现行设计参数（render10.mjs，v22）
 - 唯一母版 aibg_arch5.jpg（6000×2399，ChatGPT "Rainbow Over Marina Bay at Night-5"，Real-ESRGAN 4×；拱外缘 y198 / 内缘 y232 / 圆心 4276,1936）。4:3 版图 B 已停用。
-- 电话 `PHONE` 环境变量，默认 +65 8161 5672（James 手机，是否公开待确认）；横幅 f1/f2 联络行 = 邮箱｜电话 10.5px。
+- 电话 `PHONE` 环境变量，默认 [phone withheld]（James 手机，是否公开待确认）；横幅 f1/f2 联络行 = 邮箱｜电话 10.5px。
 - `arch(k, cxCss, oy, extra, fill, M)`：封面 k1/3 cx1425 oy56，人像 s0.45 fx1181 fy196；广告 k1/6 cx712.67 oy30，s0.30 fx595 fy86；728×90 k0.062 右对齐 oy4，s0.09 fy28；340×280 k0.0986（照片右缘 = 画框右缘）cx170 oy22，s0.19 fx126 fy54。
 - 调色：brightness 1.0 / contrast 1.03 / saturate 1.08（= 原照观感）；光晕减半；340×280 无顶部压暗、无水面重着色。oy>0 时顶部用照片自己顶部 5% 天空拉伸 ≈1.9× + blur 1.2 补齐。
 - QA 门槛 qa_check.py：顶点 ≥ 11%（封面 ≥ 12%）、拱内缘高于每个头顶 ≥ 3%、顶点在画面内 → 不过不出图。
@@ -63,6 +69,8 @@ render10.mjs → qa_check.py（PASS）→ export10.py --final → build_docx.js 
 - 文章缺的事实：DAVID 一个有记录的决策；有日期的 AI 工作流案例；ASEAN 航线；营收/利润口径；2026 年 1–6 月经营主体；EIU 博士学位状态（新闻稿写四个已授予 vs 档案两个）。
 - 公司照片 10–30 张；矢量 Logo；ceg@ 邮箱是否有人看。
 
+- **v31 待 James（10-19）**：V11 上线用哪一版——第五版 A / 5B / 变化一 熄灯天光 / 变化二 大字逐个砸 / 结合（变化一开场 + 变化二大字）。
+
 ## 7. 教训（防止重犯）
 1. 自画彩虹 → 双彩虹/延伸生硬。只用照片里的彩虹。
 2. 横幅镜像补边 → 接缝/第二道彩虹。用 navy 补边。
@@ -76,6 +84,8 @@ render10.mjs → qa_check.py（PASS）→ export10.py --final → build_docx.js 
 10. 黄色药丸按钮、Get a quote、奖项徽章、网址行、三个 CTA → 全被否。
 
 ---
+- v31 教训（10-19）：小字不能用金色描边（字被糊住）→ 立体银字；"高清"必须用 4 倍图层真渲染，不能把 2 倍图拉大；手机上看不清 → 另给手机 MP4 + 关键画面；只把字摆出来是基本功，要第一秒整张图有变化、4 秒内读完、动作带意义；彩虹永不变暗/闪动/遮挡，熄灯只作用在城市背景。
+
 ## 附录：版本史（压缩）
 - v8（10-16）PROMISE DELIVERED 口号、夜景 + 彩虹拱构图、CEG 左 / CE Global 右。
 - v9–10 ChatGPT 生图背景；底栏改 CONTACT US 两邮箱；ChatGPT 第二轮评分 6.3–6.8（全文见 GBA2026_ChatGPT_Critique.md）。

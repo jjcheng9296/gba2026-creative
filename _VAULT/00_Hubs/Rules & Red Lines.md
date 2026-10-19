@@ -3,7 +3,7 @@ type: moc
 id: rules
 status: approved
 created: 2026-10-17
-updated: 2026-10-17
+updated: 2026-10-19
 aliases: [Rules, Red lines]
 tags: [gba2026, moc]
 ---
@@ -26,6 +26,7 @@ Approved rules only — feedback is not automatically a rule ([[Feedback Inbox]]
 - [[RULE-keep-v1]] — Keep V1
 - [[RULE-archive-not-delete]] — Archive, never delete
 - [[RULE-downloads-need-approval]] — Downloads need approval
+- [[RULE-always-hd]] — Every deliverable also in HD (@2x GIF, 1360×1120 MP4/JPG)
 
 ```dataview
 TABLE requirement, scope FROM "_VAULT/04_Design_System" WHERE type = "rule" SORT file.name ASC
