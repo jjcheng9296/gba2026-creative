@@ -547,3 +547,22 @@ Claude 选 B（同样理由）。James 16:40 选 **A** → 第五版按 A 做（
 James 18:55："我在想有没有更好 的motion graphics, 更有震撼力，容易被人记住的"
 ChatGPT 三个方案：① The Broken Route（WHEN ALL ELSE FAILS 下一条 2 px 银色路线走到断口停住；TRY 时接上，彗星沿路线写出她的名字——"不通→接通→目的地"）② The Last Door（金属小门在 TRY 时打开，名字在门里出现；风险：占宽度、名字变小）③ The Three Impressions（名字分三下"印"出来，三个 BANG 重复同一节奏，成为招牌动作）。它选 ①，时间：0–1.5 路线前进到断口停 · 1.5–2.0 TRY 卡 · 2.0–2.5 路线接上（6 帧）· 3.5–4.0 句子合成 · 4.0/4.5/5.0 彗星沿路线写名字 · 8.0/8.5/9.0 BANG · 9.5–13 静止；去掉光环和闪光，用三下节奏代替。
 Claude 自己（先写好，再看 ChatGPT）：① 熄灯→天上来光（WHEN ALL ELSE FAILS 时整张照片暗下去、城市灯一盏盏灭；TRY THE GOD OF THE UNIVERSE 时光从彩虹往下亮回来，城市重新点亮——整张图"由暗到亮"，在一排静态广告里最抓眼，手机上也看得到）② 字裂开、金光从裂缝透出来（340 宽太碎，风险大）③ 三下节奏招牌（和 ChatGPT ③ 一样）。Claude 推荐 ①；ChatGPT 的路线和货运很配，但 2 px 线在 340×280 上冲击力不够，可作为 ① 的配角。等 James 选要先试做哪个。
+
+## 第二十轮 2026-10-20 17:20 — 文章 v13 盲问方案（GPT-6 Pro）
+James 17:12：文章要更吸引人、做 SEO、CTA 要强、好读，受众是企业家，要请 ChatGPT 6 Pro 评，目标 95 分；删"付款条件 / 领导力考验"一段、五个阶段和"一页决策"练习；必须写 CE GLOBAL NETWORK LLP 获 Singapore SME 500 Award 2026；货运段改成门到门一站式（仓储、拖车、装柜、海运、文件）的 USP；AI 段要好读、有说服力；加 Florence 的见证，给读者新希望。
+ChatGPT（盲问，没看 Claude 的稿）：8 个 H1，选 "Promise Delivered: New Hope for Business Owners"；SEO 标题 "Promise Delivered | CE Global Network International"（51 字符）、meta、slug；大纲（前半段讲完 Florence，九月例子放 AI 段开头，FAQ，CTA 放最后）；Florence 只用她的原话 + 一句说明；3 个 FAQ；三大风险（没证据的说法、太长、CTA 不具体）。Claude 同时写了自己的盲稿（article_v13_claudeA.md，1,890 词），两份合并。
+
+## 第二十一轮 2026-10-20 17:47 — 合并稿评分 90.6
+钩子 92 · 手机易读 89 · SEO 88 · CTA 96 · 真实性 86 · 评委 90 · 受众 90 · 新希望 94。
+采纳：标准段缩短；FAQ 标题 "How does CE Global use AI on live shipments?"；"一个团队 + 本地合作伙伴统筹全程"；写明评奖理由的一句；计划中的 SME 服务写窄；她亲口说的话用大写；删 COVID 一句；中文多处改准。
+不采纳（另有来源证实）：D&B 引言出处（视频逐字稿 01:17）；七家公司名单（ACCESS Newswire 10-11、SEÑORA 09-16）。
+独立事实核查（Claude 子代理，58 条）：必改项全部改好（九月例子不说是 AI 发现的、写"根据公司记录"、"He gave up his businesses" 等）。
+
+## 第二十二轮 2026-10-20 18:10 — James 17:51「生意山穷水尽 不好，这样会冒犯人，应该是让生意更好，有更好的突破」之后的正面版：93.9
+钩子 95 · 手机易读 92 · SEO 95 · CTA 94 · 真实性 92 · 评委 94 · 受众 93 · 新希望 96。读者框架检查 **PASS**：除了官方标语，没有一句说读者的生意卡住、失败或走投无路。
+采纳：标准段 32 词（保留 THE GOD OF THE UNIVERSE）；CTA 第三行 "The decision you want to make next, and by when."（中文"下一步要做的决定和期限"）；"She describes nearly a decade…"；文件一条写明提单对照托运单核对；"four AI-assisted workflows"（H2 也改，顺带放进关键词）；中文电气公司一句去掉"工程款"。
+不采纳：结尾祝福语"多出的半句"（D&B 逐字稿 06:54 完整证实）；中文删掉 SME 500（James 指定必须写）——只删了中文里的 D&B 和 Global Icon。货运开头改成我们自己的事实句 "An export has many moving parts: the truck, the warehouse, the container, the paperwork and the ship."
+
+## 第二十三轮 2026-10-20 19:00 — 确认评分：**95.4 / 100**（达到 95 分目标）
+钩子 95 · 手机易读 95 · SEO 95 · CTA 96 · 真实性 96 · 评委 95 · 受众 95 · 新希望 96（763 ÷ 8）。没有低于 95 的项目，不需要再改；客户指示确认通过（没有把读者的生意写成卡住或失败）。ChatGPT："I would sign off this version for submission."
+Claude 自评 94（手机上大写引言读起来仍偏重；七家公司名单偏长）——两处都是客户要保留的内容，不再改。

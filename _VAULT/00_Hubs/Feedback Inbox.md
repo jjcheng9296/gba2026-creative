@@ -2,7 +2,7 @@
 type: moc
 id: feedback-inbox
 created: 2026-10-17
-updated: 2026-10-19
+updated: 2026-10-20
 tags: [gba2026, moc]
 ---
 # Feedback Inbox
@@ -35,6 +35,7 @@ TABLE reviewer, round, status FROM "_VAULT/05_Feedback_Decisions" WHERE type = "
 - [[FB-2026-10-19-03]] 16:36–18:06 — WHEN ALL ELSE FAILS not centred / no impact → A (centred, James) vs B (two-line chrome, ChatGPT R18 + Claude); phone HD sets; "save all these versions"
 - [[FB-2026-10-19-04]] 18:55–19:31 — short attention span + phone: "give people impression, not just the words" → Variations VAR1 / VAR2 built, liked ("不错很有创意"), archived
 
+- [[FB-2026-10-20-02]] 17:12–17:51 — Write-up: more engaging, SEO, strong CTA, ≥ 95 with ChatGPT 6 Pro; remove payment terms + five stages + one-page exercise; SME 500 (LLP); door-to-door USP; AI section readable; Florence testimony = new hope; Thomas parked; never 山穷水尽 — positive breakthroughs · delivered (v13, 95.4)
 ## Decisions
 - [[DEC-3d-polished-gold]] — 3D polished-gold lettering
 - [[DEC-movie-title-motion]] — Movie-title motion

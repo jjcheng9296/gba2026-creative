@@ -2,7 +2,7 @@
 type: moc
 id: skill-improvement-log
 created: 2026-10-17
-updated: 2026-10-19
+updated: 2026-10-20
 tags: [gba2026, moc, skill]
 ---
 # Skill Improvement Log
@@ -30,6 +30,10 @@ Failure → proposed change → test → approval → skill version / commit.
 | 2026-10-19 | Wide TRY card and BANG×3 slam peaks ran under the names block; hero first frame blank; comet/flash drawn on letters | Peak width ≤ zone (slam 1.07 / 1.03); first landing frame ≥ 0.4; effects layered behind letters; check transition frames from the GIF | [[SKL-remotion-threejs]] · [[WF-07-frame-check]] | adopted |
 | 2026-10-19 | Two-line ChatGPT block lettering: lines touch | Ask for a 12 % gap; else split at the first row of line 2 and open the gap | [[SKL-chatgpt-image-generation]] | adopted |
 | 2026-10-19 | Phrasing decided by one voice | Write Claude's judgment first, ask ChatGPT blind with options, merge, show James both ([[03_Docs/GBA2026_ChatGPT_Critique.md]] round 12) | [[SKL-ce-global-award-creative]] | adopted |
+| 2026-10-20 | Write-up framed readers as stuck ("生意山穷水尽" → "会冒犯人") | Positive framing only: every reader is a growing business reaching for its next breakthrough; hope from a real attributed testimony | [[SKL-content-writing]] · [[SKL-ce-global-award-creative]] | adopted (v13 95.4) |
+| 2026-10-20 | A 17k ChatGPT prompt went into a "Writing" block (first `.ProseMirror`) instead of the composer | Composer = `form .ProseMirror[contenteditable="true"]` only; check the new user turn + stop button | [[SKL-chatgpt-image-generation]] | adopted |
+| 2026-10-20 | ChatGPT kept flagging verified quotes / names it had no source for | Paste the primary-source lines (D&B transcript timestamps, Florence page, published features) into the round as a fact-bank addition | [[SKL-content-writing]] | adopted |
+| 2026-10-20 | Mock winner page scrolled sideways on phones (nav + details table) | Phone CSS in `build_winner_html.py` (nav wraps, table fixed, standfirst/quotes left-aligned, hyphenation) | [[SKL-content-writing]] | adopted |
 
 ## Backlog（待办，来自第一版仓库笔记）
 - [ ] 技能正文有三份（Documents、10_Claude_Skill_Sync、09 repo docs），易不一致 → 以 10_Claude_Skill_Sync/SKILL.md 为准，其余只读 · [[SKL-ce-global-award-creative]]
@@ -40,3 +44,4 @@ Failure → proposed change → test → approval → skill version / commit.
 - 2026-10-19 19:10 · lesson (James 19:04): design for a short attention span and the phone — first-second whole-banner hook, one idea per beat, message readable in < 4 s, motion tied to meaning, signature 3-beat rhythm; "impression, not just the words". Two variations built ([[DEC-v11-variations-attention-phone]]). → skill v25.
 - 2026-10-19 19:50 · v26 · read the vault at EVERY request (James 19:41); merged back rules missing from the live skill (00 vault layer, 00a 728×90, boss brand line, never publish figures, 3a banner research, 固定版位 + 动画顺序); GitHub = public → text/scripts only, redact figures + phone, push from a cloud clone.
 - 2026-10-20 · v27 · VAR2 chosen → §11 one-card rule superseded for V11; new §11a 728×90 V11 recipe (masthead = boss headline, same clock as the 340, one-line closing card, BANG 20/22.5/25, outline ripple for wide words); pipeline `VARIANT=v11lb`, `SIZE=728 export_v11.py`, `LB11VAR2HD`; Vercel deploy needs `--scope jjcheng-s-projects`.
+- 2026-10-20 19:15 · v28 · §5 write-up rewritten (positive framing, testimony rules, removed-sections list, must-include list, v13 structure, BUSINESS BREAKTHROUGH CTA, SEO, quote verification, ChatGPT ≥ 95 + fact-check agent); §4 ChatGPT composer selector + Pro power slider + v13 builders; §6 write-up checks; §9 mistakes.

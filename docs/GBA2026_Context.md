@@ -1,4 +1,4 @@
-# GBA 2026 — 项目上下文（压缩版，2026-10-20 17:10 · v32）
+# GBA 2026 — 项目上下文（压缩版，2026-10-20 19:10 · v33）
 
 > **Obsidian 仓库（2026-10-18）**：仓库根目录 = 本文件夹。入口 `00_HOME.md` → `_VAULT/00_Hubs/HOME.md`；开工/收工按 `_VAULT/00_Hubs/Session Protocol.md`；字体颜色在 `_VAULT/00_Hubs/Design System.md`（每项一条 TOK 笔记）；改稿记 FB → REV → DEC 笔记（模板在 `_VAULT/08_Templates`）。需安装社区插件 Dataview + Templater。
 >
@@ -71,6 +71,7 @@ render10.mjs → qa_check.py（PASS）→ export10.py --final → build_docx.js 
 
 - ~~v31 待 James（10-19）：V11 上线用哪一版~~ → **10-20 16:44 James 选「变化二 大字逐个砸」**。
 - **v32（10-20）**：728×90 也做成大字逐个砸（`LB11VAR2`，和 340 同一个 13 秒节拍；顶行 = 老板标题 CROWNED EAGLES GLOBAL · HEAVEN THRONE ROOM MINISTRY · CE GLOBAL NETWORK INTERNATIONAL / GLOBAL FREIGHT FORWARDING!；结尾一行）。两个尺寸全套在 `01_Work_V11_Big_Word_Punch_大字逐个砸_340x280_728x90\`；模拟网站已更新 https://gba2026-mock-site.vercel.app/（部署要加 `--scope jjcheng-s-projects`）。待 James / 老板看 728。
+- **v33（10-20 19:10）文章 v13**：James 17:12 / 17:51 的意见全部改好（删付款条件段、五个阶段、"一页决策"练习；写 CE GLOBAL NETWORK LLP 获 Singapore SME 500 Award 2026；门到门一站式 USP；AI 段重写；Florence 见证；全文正面框架"下一个突破"，不写山穷水尽；CTA 主题 BUSINESS BREAKTHROUGH + 三句话）。ChatGPT 6 Pro 第 21–23 轮 90.6 → 93.9 → **95.4**。文件 `02_Live_Deliverables_V1\GBA2026_Winner_Profile_v13_DRAFT.docx/.pdf/.md`（V1 不动）；winner.html 已更新上线。待 James 确认：计划中的 AI/SOP 服务、九月例子措辞、邮件主题、点名 Florence、ACCESS Newswire 把 SME 500 写在 CE Global Network (International) 名下。
 
 ## 7. 教训（防止重犯）
 1. 自画彩虹 → 双彩虹/延伸生硬。只用照片里的彩虹。
@@ -86,6 +87,7 @@ render10.mjs → qa_check.py（PASS）→ export10.py --final → build_docx.js 
 
 ---
 - v31 教训（10-19）：小字不能用金色描边（字被糊住）→ 立体银字；"高清"必须用 4 倍图层真渲染，不能把 2 倍图拉大；手机上看不清 → 另给手机 MP4 + 关键画面；只把字摆出来是基本功，要第一秒整张图有变化、4 秒内读完、动作带意义；彩虹永不变暗/闪动/遮挡，熄灯只作用在城市背景。
+- 文章（2026-10-20）：不要把读者的生意写成卡住 / 失败 / 山穷水尽（"会冒犯人"）——写成"更好的生意、下一个突破"；希望来自真实、公开、署名的见证（只用原话，加一句说明，不用健康说法和金额）；每句引言都对照原始来源（D&B 视频逐字稿时间点）；ChatGPT 输入框只用 `form .ProseMirror[contenteditable="true"]`。
 
 ## 附录：版本史（压缩）
 - v8（10-16）PROMISE DELIVERED 口号、夜景 + 彩虹拱构图、CEG 左 / CE Global 右。

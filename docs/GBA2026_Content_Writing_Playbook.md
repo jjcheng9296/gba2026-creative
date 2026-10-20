@@ -80,3 +80,16 @@ Boss direction via James: freight forwarding is a MEANS TO AN END; the core comp
 ### Reusable assets
 - `11_Research_Leaders/05_Quote_Bank.md` — verbatim public quotes with sources, grouped (leadership method / faith sequence / brand line / DR DAVID / endorsements).
 - `11_Research_Leaders/00_INDEX_Research_Leaders.md` — what each source is good for + the five rules for using it.
+
+## 7. Rounds 20–22 (20 Oct 2026) — v13 "new hope": what James's feedback taught us
+James (17:12, 17:51): more engaging, SEO-optimised, strong CTA, easy to read; bring NEW HOPE to business entrepreneurs; "生意山穷水尽 不好，这样会冒犯人，应该是让生意更好，有更好的突破".
+1. **Never label the reader's business as stuck, failing or at a dead end.** Frame every reader as a growing business reaching for its next breakthrough. Headline, standfirst, Chinese block and CTA all say "breakthrough", never "problem". (The client's own slogan WHEN ALL ELSE FAILS… stays as her quote.)
+2. **Hope comes from a real person's published words.** Use the testimony verbatim and attributed ("Florence writes"), open on the breakthrough (her spoken line as the first sentence), give the context in one short line, then the results. One honest caveat ("Florence is describing her own faith and experience"). No health claims, no money figures, no theological titles from the source page (attribute to DR SHEKINAIH SIEW SIN YAP as the person's account).
+3. **Drop abstract frameworks the reader cannot use** (the five stages, the one-page exercise). Keep one practical tool (her seven questions) and the client's chosen quotes.
+4. **USP section = the client's own words:** door-to-door, all-in-one, one team + local partner network, five bullet services, "does not compete on being the cheapest. It competes on keeping its word."
+5. **Digital section that convinces:** goal line → four bullets of live checks → one dated example "according to company records" (never credit AI for it unless the records say so) → her quote → "Software checks. People decide, and people sign."
+6. **CTA:** a subject line (BUSINESS BREAKTHROUGH) + three lines (the breakthrough you want · what you are doing now · the decision you want to make next, and by when); repeated in the FAQ and the Chinese block; logistics quote as the second CTA.
+7. **SEO:** title tag ≤ 60 chars, meta ≤ 155, H1 with the slogan, H2s as claims or reader questions, three FAQs, JSON-LD Article + Organization (no FAQPage — Google retired FAQ rich results).
+8. **Every quote checked against the primary source** (D&B video transcript with timestamps, Florence's page, published features); give ChatGPT the source lines so it judges the writing, not missing evidence.
+9. **Phone:** body justified (James's rule) with hyphenation; standfirst, kicker and pull quotes left-aligned on phones; no horizontal scroll.
+10. **ChatGPT tool lesson:** the composer is `form .ProseMirror[contenteditable="true"]` — ChatGPT "Writing" blocks are also ProseMirror editors; never insert into the first `.ProseMirror` on the page.

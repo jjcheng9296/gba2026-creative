@@ -2,7 +2,7 @@
 type: moc
 id: revision-log
 created: 2026-10-17
-updated: 2026-10-19
+updated: 2026-10-20
 tags: [gba2026, moc]
 ---
 # Revision Log
@@ -32,3 +32,4 @@ Approved versions are immutable; new work = new REV note ([[TPL-Revision]]).
 - 2026-10-19 19:31 · 340×280 · Variations 1 and 2 liked ("不错很有创意") and archived to `19th Oct 2026 - V11 Variations 1 and 2/`
 - 2026-10-20 16:44 · 340×280 · James chose VAR2 大字逐个砸 as the V11 motion · [[FB-2026-10-20-01]]
 - 2026-10-20 17:00 · 728×90 · V11 Big Word Punch (`LB11VAR2`/`LB11VAR2HD`): boss-headline masthead, same 13 s clock as the 340, one-line closing card; full HD + phone set; mock site redeployed · [[REV-2026-10-20-01]]
+- 2026-10-20 19:10 · write-up · v13 "Promise Delivered: New Hope and Breakthroughs for Business Owners": five stages / payment terms / one-page exercise removed; Florence testimony; door-to-door USP; AI workflows rewritten; SME 500; positive framing; CTA BUSINESS BREAKTHROUGH; SEO; ChatGPT R21 90.6 → R22 93.9 → **R23 95.4**; mock site redeployed · [[REV-2026-10-20-02]]

@@ -1,0 +1,54 @@
+{
+ "title": "Promise Delivered | CE Global Network International",
+ "og_title": "Promise Delivered: New Hope and Breakthroughs for Business Owners",
+ "description": "Meet CE Global: Singapore door-to-door logistics, AI checks and faith in business. Email DR SHEKINAIH SIEW SIN YAP about your next breakthrough.",
+ "keywords": "CE Global Network International, door-to-door logistics Singapore, all-in-one export logistics Singapore, AI logistics workflows, DR SHEKINAIH SIEW SIN YAP, Golden Bull Award 2026, Singapore SME 500 Award 2026",
+ "canonical": "https://gba2026-mock-site.vercel.app/winner.html",
+ "og_image": "https://gba2026-mock-site.vercel.app/assets/cover_2000x800.jpg",
+ "jsonld": [
+  {
+   "@context": "https://schema.org",
+   "@type": "Article",
+   "headline": "Promise Delivered: New Hope and Breakthroughs for Business Owners",
+   "about": {
+    "@type": "Organization",
+    "name": "CE Global Network International Pte. Ltd."
+   },
+   "image": "https://gba2026-mock-site.vercel.app/assets/cover_2000x800.jpg",
+   "inLanguage": "en-GB",
+   "keywords": "door-to-door logistics Singapore, all-in-one export logistics, AI logistics workflows, Golden Bull Award 2026",
+   "description": "Meet CE Global: Singapore door-to-door logistics, AI checks and faith in business. Email DR SHEKINAIH SIEW SIN YAP about your next breakthrough."
+  },
+  {
+   "@context": "https://schema.org",
+   "@type": "Organization",
+   "name": "CE Global Network International Pte. Ltd.",
+   "url": "https://www.ceglobalnetworkinternational.com",
+   "email": "shipping@ceglobalnetworkinternational.com",
+   "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "27 Trevose Crescent",
+    "postalCode": "298042",
+    "addressCountry": "SG"
+   },
+   "founder": {
+    "@type": "Person",
+    "name": "DR SHEKINAIH SIEW SIN YAP",
+    "jobTitle": "Founder and Managing Director"
+   },
+   "award": [
+    "Golden Bull Award 2026 — Outstanding Bull",
+    "Golden Bull Award 2026 — Digital 50"
+   ],
+   "knowsAbout": [
+    "door-to-door logistics",
+    "container trucking",
+    "warehousing",
+    "container stuffing",
+    "customs documentation",
+    "ocean freight",
+    "air freight"
+   ]
+  }
+ ]
+}
