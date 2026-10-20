@@ -40,3 +40,4 @@ Skills: [[SKL-ce-global-award-creative]], [[SKL-chatgpt-image-generation]], [[SK
 Checks: [[QA Checklist]]
 - 2026-10-19 lesson: "HD" = rendered from 4x layers, not upscaled; check sharpness (Laplacian) on faces/names before sending. Small silver type → 3D silver, check at 1x before showing.
 - 2026-10-19 lesson: before building motion, ask "what does the WHOLE banner do in the first second, and does it read on a phone?" — then check the idea against the red lines (rainbow not pulsed/covered, nothing crosses the founders). See Design System "Attention & phone".
+- 2026-10-20 lesson: adapting a motion to another size = keep the SAME clock (banners on one page punch together), refit every element to the new zone, and re-check impact effects — a ring sized for a 340 word peeps through the gaps of a wide 728 word. Run: [[RUN-2026-10-20-728x90-V11]].

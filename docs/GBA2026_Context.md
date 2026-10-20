@@ -1,4 +1,4 @@
-# GBA 2026 — 项目上下文（压缩版，2026-10-17 23:40 · v31）
+# GBA 2026 — 项目上下文（压缩版，2026-10-20 17:10 · v32）
 
 > **Obsidian 仓库（2026-10-18）**：仓库根目录 = 本文件夹。入口 `00_HOME.md` → `_VAULT/00_Hubs/HOME.md`；开工/收工按 `_VAULT/00_Hubs/Session Protocol.md`；字体颜色在 `_VAULT/00_Hubs/Design System.md`（每项一条 TOK 笔记）；改稿记 FB → REV → DEC 笔记（模板在 `_VAULT/08_Templates`）。需安装社区插件 Dataview + Templater。
 >
@@ -69,7 +69,8 @@ render10.mjs → qa_check.py（PASS）→ export10.py --final → build_docx.js 
 - 文章缺的事实：DAVID 一个有记录的决策；有日期的 AI 工作流案例；ASEAN 航线；营收/利润口径；2026 年 1–6 月经营主体；EIU 博士学位状态（新闻稿写四个已授予 vs 档案两个）。
 - 公司照片 10–30 张；矢量 Logo；ceg@ 邮箱是否有人看。
 
-- **v31 待 James（10-19）**：V11 上线用哪一版——第五版 A / 5B / 变化一 熄灯天光 / 变化二 大字逐个砸 / 结合（变化一开场 + 变化二大字）。
+- ~~v31 待 James（10-19）：V11 上线用哪一版~~ → **10-20 16:44 James 选「变化二 大字逐个砸」**。
+- **v32（10-20）**：728×90 也做成大字逐个砸（`LB11VAR2`，和 340 同一个 13 秒节拍；顶行 = 老板标题 CROWNED EAGLES GLOBAL · HEAVEN THRONE ROOM MINISTRY · CE GLOBAL NETWORK INTERNATIONAL / GLOBAL FREIGHT FORWARDING!；结尾一行）。两个尺寸全套在 `01_Work_V11_Big_Word_Punch_大字逐个砸_340x280_728x90\`；模拟网站已更新 https://gba2026-mock-site.vercel.app/（部署要加 `--scope jjcheng-s-projects`）。待 James / 老板看 728。
 
 ## 7. 教训（防止重犯）
 1. 自画彩虹 → 双彩虹/延伸生硬。只用照片里的彩虹。

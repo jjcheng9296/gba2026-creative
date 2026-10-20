@@ -76,3 +76,8 @@ Photo y 0–174 · logos 50×50 at (8,6) and (282,6) · ministry 214×19 at y 8 
 
 ## People & brands
 [[PER-dr-shekinaih-siew-sin-yap]] · [[PER-dr-j-aaron-k-david]] · [[BRD-ce-global-network-international]] · [[BRD-crowned-eagles-global]] · [[BRD-heaven-throne-room-ministry]] · [[BRD-golden-bull-award-2026]]
+
+## Layout 728×90 V11 Big Word Punch (CSS px) — [[DEC-v11-big-word-punch-chosen]]
+- Masthead y 0–27, x 6–546: CROWNED EAGLES GLOBAL (`ceg3d`, 163×21.5) · HEAVEN THRONE ROOM MINISTRY (`ministry3d1`, 179×15.8) · CE GLOBAL NETWORK INTERNATIONAL / GLOBAL FREIGHT FORWARDING! (3D silver Anton 12 px, 0.045 em); gold rule y 27.
+- Logos left (8,29)/(76,29) 56×56; stage x 150–500 / y 29–87 (70 once the email is on); email 3D silver 212×16 at y 71; photo panel x ≥ 500 untouched.
+- Words ≤ 336×50; hero rows 21 / 28.5; BANG 20/22.5/25 (×1.5 px tall); closing one line 21.7 px; same `TVAR2` clock as the 340.

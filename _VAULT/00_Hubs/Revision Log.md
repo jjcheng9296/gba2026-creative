@@ -30,3 +30,5 @@ Approved versions are immutable; new work = new REV note ([[TPL-Revision]]).
 - 2026-10-19 17:30 · 340×280 · V11A Version 5B (`MR11A5B`) — option B for comparison; phone HD set (MP4 + key stills) for A and B, A-over-B portrait video · [[FB-2026-10-19-03]]
 - 2026-10-19 19:20 · 340×280 · Variations VAR1 (blackout → rainbow light) and VAR2 (big word punch) for short attention / phone; four-way comparison video · [[DEC-v11-variations-attention-phone]]
 - 2026-10-19 19:31 · 340×280 · Variations 1 and 2 liked ("不错很有创意") and archived to `19th Oct 2026 - V11 Variations 1 and 2/`
+- 2026-10-20 16:44 · 340×280 · James chose VAR2 大字逐个砸 as the V11 motion · [[FB-2026-10-20-01]]
+- 2026-10-20 17:00 · 728×90 · V11 Big Word Punch (`LB11VAR2`/`LB11VAR2HD`): boss-headline masthead, same 13 s clock as the 340, one-line closing card; full HD + phone set; mock site redeployed · [[REV-2026-10-20-01]]

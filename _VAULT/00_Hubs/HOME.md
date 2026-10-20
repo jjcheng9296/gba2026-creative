@@ -3,7 +3,7 @@ type: moc
 id: HOME
 status: approved
 created: 2026-10-17
-updated: 2026-10-19
+updated: 2026-10-20
 aliases: [Home, Dashboard]
 tags: [gba2026, moc]
 ---
@@ -12,8 +12,8 @@ Golden Bull Award 2026 creative for CE GLOBAL NETWORK INTERNATIONAL PTE LTD. **S
 
 ## Now
 - Approved: [[DEL-340x280-V9C]] · in review: [[DEL-728x90-V9C]] (V10 draft 2, [[REV-2026-10-18-02]]) · next: 1000×500, 2000×800
-- **New slogan (19 Oct):** "WHEN ALL ELSE FAILS, TRY THE GOD OF THE UNIVERSE IN DR. SHEKINAIH! BANG! BANG! BANG!" → [[DEL-340x280-V11]] — V11A Versions 1–5 + 5B archived (v4 approved 16:21: boss headline + 3D silver; v5 = WHEN centred, James's pick A; 5B = two-line chrome WHEN), Variations VAR1 熄灯天光 / VAR2 大字逐个砸 liked + archived 19:31 ([[DEC-v11-variations-attention-phone]]). **Open: James picks the live version.** Rules added today: [[RULE-always-hd]] (true 4x HD + phone set), Design System "Attention & phone".
-- Latest handoff: [[SES-2026-10-19-claude]] (previous [[SES-2026-10-18-claude]])
+- **New slogan (19 Oct):** "WHEN ALL ELSE FAILS, TRY THE GOD OF THE UNIVERSE IN DR. SHEKINAIH! BANG! BANG! BANG!" → [[DEL-340x280-V11]] — V11A Versions 1–5 + 5B archived (v4 approved 16:21: boss headline + 3D silver; v5 = WHEN centred, James's pick A; 5B = two-line chrome WHEN), Variations VAR1 熄灯天光 / VAR2 大字逐个砸 liked + archived 19:31 ([[DEC-v11-variations-attention-phone]]). **20 Oct: James chose VAR2 大字逐个砸** → [[DEC-v11-big-word-punch-chosen]]; 728×90 built the same way → [[DEL-728x90-V11]] (in review). Mock site: https://gba2026-mock-site.vercel.app/ Rules added today: [[RULE-always-hd]] (true 4x HD + phone set), Design System "Attention & phone".
+- Latest handoff: [[SES-2026-10-20-claude]] (previous [[SES-2026-10-19-claude]])
 - Open question: slot format → [[PER-jason-ooi]]
 - Old photos of the founders: use [[SKL-old-photo-face-restoration]] (client-approved ChatGPT two-step prompt, 2026-10-18)
 

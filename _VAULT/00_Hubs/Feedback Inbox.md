@@ -45,3 +45,5 @@ TABLE reviewer, round, status FROM "_VAULT/05_Feedback_Decisions" WHERE type = "
 - [[DEC-728-layout-logos-left-masthead]] — 728: logos left, masthead on top, stage in the middle (James 2026-10-18)
 - [[DEC-bang-eruption]] — BANG! = eruption from beneath, 1·2·3 rhythm at 2-frame spacing (pending)
 - [[DEC-v11-version2-sentence-assembles]] — V11 v2: sentence assembles, 12 s, still ending; email after the name; keep comet, drop ministry orbit; A lettering (James 2026-10-19 15:05)
+- [[FB-2026-10-20-01]] — James picks 大字逐个砸 + asks for the 728×90; save, vault, GitHub, mock-site link (2026-10-20) · delivered
+- [[DEC-v11-big-word-punch-chosen]] — V11 = Big Word Punch on 340 + 728; 728 masthead = boss headline; one-line closing on the 728

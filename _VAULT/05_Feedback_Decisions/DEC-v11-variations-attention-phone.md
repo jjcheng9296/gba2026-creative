@@ -1,7 +1,7 @@
 ---
 type: decision
 id: DEC-v11-variations-attention-phone
-status: archived-liked
+status: chosen-VAR2
 created: 2026-10-19
 updated: 2026-10-19
 related: ["[[FB-2026-10-19-04]]", "[[TOK-motion-blackout-rainbow-light]]", "[[TOK-motion-big-word-punch]]"]
@@ -20,3 +20,4 @@ Both keep every rule: rainbow never redrawn / pulsed / covered, nothing crosses 
 ChatGPT R19: Broken Route (2 px route breaks / reconnects — strong meaning, too thin at 340), Last Door (doors shrink the name), Three Impressions (already our 3-beat rhythm). Claude: letters crack (too busy at 340), heaven gates trailer (a gate edge would cross the founders → breaks [[RULE-no-text-over-faces]]).
 ## Status
 19:31 James: "不错很有创意，存档" — both variations liked and archived; the live choice (A / B / VAR1 / VAR2 / mix) is still open.
+- 2026-10-20 16:44 James: "帮我做 那个 大字逐个砸，然后也做 728x90" → VAR2 chosen → [[DEC-v11-big-word-punch-chosen]], 728 → [[DEL-728x90-V11]].
